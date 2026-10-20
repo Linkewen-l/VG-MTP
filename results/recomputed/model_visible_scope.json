@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "records_checked": 61440,
+    "HB_or_KAIST": 0,
+    "quota_field_name": 0,
+    "specified_dev_test_bearing_id": 0,
+    "registered_record_key_in_instruction": 61440,
+    "task_id_in_instruction": 61440,
+    "terminal_field_absent": 15360
+  },
+  "searched_patterns": {
+    "HB_or_KAIST": "\\b(?:HB|KAIST)\\b",
+    "quota_field_name": "\"(?:stratum|substratum|source_group|s2_label)\"\\s*:",
+    "specified_dev_test_bearing_id": "(?<![A-Za-z0-9])(?:K00[1-6]|KA16|KA22|KA30|KI01|KI03|KI04|KI05|KI07|KI08|KI14|KI16|KI17|KI18|KI21)(?![A-Za-z0-9])"
+  },
+  "inspected_object": "content only; sample metadata outside content is excluded",
+  "scope": "Limited literal-field scan. Record keys and task IDs remain visible. A missing terminal field is structural absence, not evidence of a conflicting terminal label. This scan does not exclude every possible shortcut or cue."
+}

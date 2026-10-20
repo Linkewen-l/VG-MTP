@@ -1,0 +1,5 @@
+﻿Matching stratum,Physical trainingrecords,Basetasks,Poolsize,D / LLMeligible,VG eligible,FinalSFT
+A: MultiCond,HUST 66 +Paderborn 18,120,598,512 / 497,481,478
+B: WideVar (“HB”),HUST 33,64,320,274 / 265,258,256
+C: BenchTransfer,Paderborn 51,68,362,310 / 301,291,290
+Total,168,252,"1,280","1,096 / 1,063","1,030","1,024"

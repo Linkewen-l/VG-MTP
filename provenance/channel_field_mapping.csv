@@ -1,0 +1,4 @@
+﻿dataset,saved_field,registered_field,interpretation,source_id
+Paderborn,X1,Y(Name = vibration_1).Data,X is the time axis. The saved trajectories/corpora remain byte-for-byte unchanged.,S09
+Paderborn,nominal-constant,nominal speed input; measured Y(Name = speed).Data is registered separately,Nominal input is not relabelled as a measured tachometer channel.,S09
+HUST,data,data; use per-entry sampling rate and nominal-speed description,"Read task_inputs.csv for each physical filename, window and input basis.",S09

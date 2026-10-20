@@ -1,0 +1,19 @@
+{
+  "pairs": 1200,
+  "full_success": 894,
+  "no_binding_success": 826,
+  "difference_full_minus_no_binding_pp": 5.666666666666666,
+  "ci95_full_minus_no_binding_pp": [
+    4.552031249999982,
+    6.609563492063518
+  ],
+  "ci95_no_binding_minus_full_pp": [
+    -6.609563492063518,
+    -4.552031249999982
+  ],
+  "four_way": {
+    "(0, 0)": 306,
+    "(1, 0)": 68,
+    "(1, 1)": 826
+  }
+}

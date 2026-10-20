@@ -1,0 +1,39 @@
+{
+  "replicates": 10000,
+  "rng": "PCG64",
+  "random_seed": 20261013,
+  "percentile_method": "linear",
+  "main": {
+    "source_order": [
+      "KAIST",
+      "Paderborn",
+      "HB"
+    ],
+    "group_counts": [
+      4,
+      6,
+      5
+    ],
+    "source_task_counts": [
+      112,
+      68,
+      60
+    ],
+    "seed_array_generated_first": true
+  },
+  "sqv": {
+    "groups": 7,
+    "training_seeds": 5,
+    "draw_order_per_replicate": [
+      "groups",
+      "seeds"
+    ]
+  },
+  "training_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ]
+}

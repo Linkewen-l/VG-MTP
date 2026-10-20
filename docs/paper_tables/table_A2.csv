@@ -1,0 +1,8 @@
+﻿Outcome,Condition,Recorded result
+Accepted diagnosis,The target-granularity evidence gate passes and cₑ ≥ θ*.,"Diagnosis, atomic claims and evidence ledger."
+Downgraded diagnosis,A coarser granularity permitted by the request passes its recomputed evidence gate and score threshold.,Coarser diagnosis; not an abstention.
+Evidential abstention,"No permitted candidate passes the evidence gate because required information, claim validity, granularity constraints or a relevant high-priority conflict remains unresolved.","⊥evid, with confirmed evidence and gaps."
+Selective abstention,A permitted candidate passes its evidence gate but its frozen acceptance score is below the threshold.,"⊥select, recorded separately."
+Repair,Validation fails recoverably while time or budget remains.,Structured feedback to the planner.
+Budget failure,Budget exhaustion or timeout occurs before a legal terminal state.,⊥budget; EDS = 0; retain in denominator.
+Execution failure,"An unrecoverable tool, parser or runtime error occurs.",⊥exec; EDS = 0; retain in denominator.

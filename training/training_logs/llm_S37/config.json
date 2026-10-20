@@ -1,0 +1,79 @@
+{
+ "run_id": "llm_S37",
+ "condition": "LLM-process-full",
+ "seed": 37,
+ "model": "Qwen3.5-9B",
+ "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+ "lora": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.05
+ },
+ "optimizer": {
+  "name": "AdamW",
+  "betas": [
+   0.9,
+   0.95
+  ],
+  "weight_decay": 0.01,
+  "grad_clip": 1.0
+ },
+ "lr_schedule": {
+  "peak": 0.0001,
+  "schedule": "cosine",
+  "warmup_ratio": 0.03
+ },
+ "batch": {
+  "microbatch": 1,
+  "grad_accum": 16,
+  "effective_batch": 16,
+  "seq_len": 8192,
+  "packing": "length-grouped concatenation up to 8192 tokens with sample-boundary attention masking",
+  "truncation": "overlength trajectories are truncated at tool-call boundaries; terminal reports are never truncated"
+ },
+ "packing_note": "packing prevents interpreting max_steps × 16 / samples_per_epoch as completed corpus epochs",
+ "max_steps": 192,
+ "precision": "bf16",
+ "decoding": {
+  "temperature": 0.2,
+  "top_p": 0.8,
+  "repetition_penalty": 1.05
+ },
+ "tools": [
+  "signal_qc",
+  "stft",
+  "fft_envelope",
+  "order_resample",
+  "order_spectrum",
+  "bearing_order",
+  "expert_classifier",
+  "claim_checker",
+  "terminal"
+ ],
+ "geometry": {
+  "bearing": "NSK6203",
+  "n": 8,
+  "d": 6.75,
+  "D": 29.0,
+  "phi": 0.0,
+  "orders": {
+   "OBPFI": 4.93103,
+   "OBPFO": 3.06897,
+   "OBSF": 2.03181,
+   "OFTF": 0.38362
+  }
+ },
+ "corpus": {
+  "file": "sft_corpus/llm_seed37.jsonl",
+  "samples_per_epoch": 1024,
+  "epochs": 3,
+  "non_padding_tokens": 23520000
+ },
+ "capacity": {
+  "per_step": 131072,
+  "steps": 192,
+  "physical": 25165824,
+  "consumed": 23282400
+ },
+ "seed37_note": "本 run 为 seed-37：累计消耗 token 与论文 B.9 冻结值 23282400 一致"
+}

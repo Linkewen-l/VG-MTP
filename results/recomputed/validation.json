@@ -1,0 +1,83 @@
+{
+  "passed": 112,
+  "mismatches": [],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "rng": {
+    "replicates": 10000,
+    "rng": "PCG64",
+    "random_seed": 20261013,
+    "percentile_method": "linear",
+    "main": {
+      "source_order": [
+        "KAIST",
+        "Paderborn",
+        "HB"
+      ],
+      "group_counts": [
+        4,
+        6,
+        5
+      ],
+      "source_task_counts": [
+        112,
+        68,
+        60
+      ],
+      "seed_array_generated_first": true
+    },
+    "sqv": {
+      "groups": 7,
+      "training_seeds": 5,
+      "draw_order_per_replicate": [
+        "groups",
+        "seeds"
+      ]
+    },
+    "training_seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ]
+  },
+  "input_sha256": {
+    "results/main/paired_task_seed.csv": "025743d02f49141cebad2b04322dc2956ba0ad25df18724eb63b8a01d1a2140d",
+    "manifests/main_eval_tasks.csv": "d3b547825e0202dfd197dd9521ccb3c3c5ff5c861566dc4c07f3329522290950",
+    "results/main/baseline_results.csv": "af851e9422fcec461fa923980966ea27f86bf7fbed8b1c48f713c5b0c380f771",
+    "docs/supplementary_tables/table_S2.csv": "a1d2203565eaf33776ccee250bd0ce51c71c528785cd7624289e372c6232b6d6",
+    "results/reporting_ablation/paired_task_seed.csv": "d6032331658b29e3251ddb1806806760733b7d6e63955014a9bf1a60cd8805dc",
+    "manifests/sqv_records_windows.csv": "8d1c273e05766f44e0c0b1debaa97eb0adf74bd33a8b0e51f9385b2c72f35c04",
+    "results/sqv/paired_results.csv": "4a6cedf322a41164eb5f91b7bc74f9e15580e2ca2fc4f185971cf05b8e89523e",
+    "results/terminal/registered_summary.csv": "eb04781305b6eeedf6bab39576ad4b99245e4913e648e87b5c85836983ab98a8",
+    "results/hb/target_prior_withheld.csv": "68d4ef74ca55b922fef9ded137174e6e17da2d0386255f7b24778867f430531f",
+    "provenance/candidate_lineage.csv": "45e8bfc796638d548b9f24c793c732669ffa6d7c99fd00d9925313af6d29b9af",
+    "provenance/task_inputs.csv": "bbc66ed9169e0da0c0c9ccff17eb6e0254fbb542138398a92b7edd3ec80b9e88",
+    "provenance/corpus_sample_map.csv": "f43359a812b2f9c9fc7fedce111d0a782d2f4d6535be1c8cad18d85f219381aa",
+    "training/sft_corpus/d_seed11.jsonl": "5358ceead021a9d0b940b79f2ac511f8b7ce1d95a4578d8e635dc244af18e5e5",
+    "training/sft_corpus/d_seed23.jsonl": "7c74f17fe24888b049e3c634874dc7d5b4906e68560d9684fe66ae9b984f0e6b",
+    "training/sft_corpus/d_seed37.jsonl": "b55d0e6df775d3a621c9335d55f42bf7d7b27f988c5adc0f47fde4fbcfd363d9",
+    "training/sft_corpus/d_seed53.jsonl": "7927df29ab0aab9db27572284ddc2f0316d5d7de8e28e0efada5a2d9c5701b89",
+    "training/sft_corpus/d_seed71.jsonl": "9002044042d4006a698567bd6018d853be7b7beb55da1db7355213da50771e95",
+    "training/sft_corpus/fl_seed11.jsonl": "14e1b28b00f532e88e37d8251e48eb14d55d0df35603267c46c4f6e6d8f2907d",
+    "training/sft_corpus/fl_seed23.jsonl": "296e84464b79a8a3acecb7419eef9bacebc14671518e24aac6c74350132bc09a",
+    "training/sft_corpus/fl_seed37.jsonl": "ea8b77a6352955e448fb0d762445f5a430bc96b732db72c6b67e375e9d2e3a0e",
+    "training/sft_corpus/fl_seed53.jsonl": "bf8e398bbfaba367e85859bb14721b1cd40aa5f37c4881a69873fcd67f84ec60",
+    "training/sft_corpus/fl_seed71.jsonl": "19417c1eaf5c53585e72c981c6b2f09b80dd0ed07a509727ea32b8d60c3c5a44",
+    "training/sft_corpus/llm_seed11.jsonl": "8f4173b50186ec2cd6a8d125b444ef6e0ffce547a92ed4efdd17f77a1f85f5e7",
+    "training/sft_corpus/llm_seed23.jsonl": "0c3d201f10b87accb23608f0f46ee10eb7e8bc1437eb23bbcb0a0bc7a00d1284",
+    "training/sft_corpus/llm_seed37.jsonl": "25526b699bfb735659015c55660fdca47e8a6aa7a306e7434a9d2ef0c104f549",
+    "training/sft_corpus/llm_seed53.jsonl": "042498ef1c3ba2cc9deb7c0701a900bac81226e27d307568792efcb3a18c3e7d",
+    "training/sft_corpus/llm_seed71.jsonl": "25f89f9bb53fd5b97013151d860edc2d2edf00ed6a0c5f8b0d41077d836578f3",
+    "training/sft_corpus/vg_seed11.jsonl": "6e3d2007f011932ff63f2ffc194ee281e6198031a013ddc36e1251e3210ff68d",
+    "training/sft_corpus/vg_seed23.jsonl": "a1f8ba18adbdf2966cb681e38709211d9099a99e7eff2135d2716aa63ffe72d4",
+    "training/sft_corpus/vg_seed37.jsonl": "656b70e3b45141c9559a5d066df99dcc28bce38b691fe9da7c478c41ea0fe5a0",
+    "training/sft_corpus/vg_seed53.jsonl": "793d69da884ecc1befd9898eddcd2b01353813d998aaf336c89ecfd7b328d011",
+    "training/sft_corpus/vg_seed71.jsonl": "04efc521ce5549f2d66667d7945bcdce17ac0fccd23cedc81abd2eef345643da",
+    "audits/expert/claim_cross_counts.csv": "63a096d51f7b360f058f6548cf9cda600cc024feee73869fcd841c9c3c5c8e18",
+    "results/main/pass3_registered.csv": "1ee1eef4b5439889683d7b295773e8407b138e1e6d4f894cf20728bcfc6abc28",
+    "docs/paper_tables/table_C4.csv": "671b451b0d085dc082b5278c4cd9d0c8f6f9b9d5a1caf93956efda8c67a36988"
+  },
+  "scope": "Paired outcome aggregation and bootstrap intervals; training-source joins and corpus counts; arithmetic from registered terminal, expert and call summaries."
+}

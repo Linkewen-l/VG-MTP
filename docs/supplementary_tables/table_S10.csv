@@ -1,0 +1,9 @@
+﻿工具,输入与输出,前提与错误状态
+signal_qc,输入信号窗、fs、通道标识和可选 tach；输出 qsig、裁剪比例、SNR、tach_q、转速和警告。,文件可解析且 fs 已声明；FILE_PARSE、SAMPLING_MISMATCH、NO_PULSE、SPEED_SOURCE_CONFLICT。
+stft,输入信号窗；输出时频图和脊线瞬时频率。,signal_qc 有效；APPLICABILITY_FAILURE。
+fft_envelope,输入信号窗；输出频率、幅值和突出度。,signal_qc 有效；沿用仓库补充表 S9 参数。
+order_resample,输入信号和已验证转速；输出角域序列及其每转采样数。,tach_q ≥ 0.80、转速连续且无相关冲突；TACH_QUALITY_LOW、SPEED_SOURCE_CONFLICT、NONPHYSICAL_JUMP。
+order_spectrum,输入角域序列；输出阶次峰、幅值和突出度。,order_resample 成功。
+bearing_order,输入几何、转速值与来源、可选观测峰、目标部位；输出理论阶次、故障频率和匹配偏差。,几何完整合法，所用转速来源无冲突；GEOMETRY_INCOMPLETE、GEOMETRY_ILLEGAL、SPEED_SOURCE_CONFLICT。
+claim_checker,输入带逐条引用的报告；输出 source_ok、numeric_ok、semantic_ok、dependency_ok。,报告可解析；DANGLING_REFERENCE、NUMERIC_OUT_OF_TOL、UNIT_CONFLICT、SEMANTIC_UNSUPPORTED。
+expert_classifier,输入信号窗、fs、传感器模态和安装方向；输出 class_probs、置信度 conf 与输入适用域分数 adom。检查点 exp_resnet1d_trn_v1 仅在仓库补充表 S6 训练分区拟合。,signal_qc 有效且输入 adom ≥ 0.70；未达阈值返回 APPLICABILITY_FAILURE。分类概率不能单独替代 g₃ 机理证据。

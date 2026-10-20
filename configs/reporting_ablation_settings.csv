@@ -1,0 +1,13 @@
+﻿field,full_registered,no_binding_registered,source_id,source_row
+完整方法数据对应,本表预填的是当前主评测完整方法记录,"确认适用：预填的完整方法记录（BATCH_MAIN_EVAL_20261016_REPAIRED，1,200条任务—种子）即为本消融的完整条件记录，与无强制引用条件按任务ID与训练种子配对。",S31,7
+任务清单,240任务：KAIST 112、Paderborn 68、HB 60,同完整方法：240任务（KAIST 112、Paderborn 68、HB 60）；两条件按EDS配对回填A–B列的任务ID与训练种子一一对应。,S31,8
+验证规范,canonical v2.0.0,canonical v2.0.0,S31,9
+验证器代码标识,commit: c7e412a8b40f91d3e6c205a7b8d19e4f3c6a8201 (verifier/canonical_predicates.py),同完整方法：commit c7e412a8b40f91d3e6c205a7b8d19e4f3c6a8201（verifier/canonical_predicates.py）；无强制引用条件保留同一验证器用于离线核验。,S31,10
+工具版本,tools v1.0（源表登记）,同完整方法：tools v1.0。,S31,11
+执行记录标识,BATCH_MAIN_EVAL_20261016_REPAIRED,BATCH_ABL_NOMAND_20261019（无强制引用报告消融批次标识）。,S31,12
+提示模板／版本,,同完整方法报告提示模板，仅移除强制引用段落并放开引用字段必填检查；模板定位 logs/nomand_eval/prompt_nomand_v2.txt。,S31,13
+解码种子映射,,同完整方法：任务ID+训练种子+重复编号 → 解码种子的映射；两条件共享同一映射。,S31,14
+解码参数,稿件登记：temperature 0.2；top_p 0.8；repetition_penalty 1.05,同完整方法：temperature 0.2；top_p 0.8；repetition_penalty 1.05。,S31,15
+任务内与跨任务聚合,封存9次、HB 6次；严格多数；240任务等权，再平均5训练种子,同完整方法：封存9次、HB 6次；严格多数；240任务等权，再平均5训练种子。,S31,16
+统计来源组,KAIST 4组；Paderborn 6组；HB 5组，明细D列已给出,同完整方法：KAIST 4组；Paderborn 6组；HB 5组（EDS配对回填D列）。,S31,17
+配对区间复算口径,"拟沿用主评测：各来源内按4/6/5组重采样并抽5训练种子；权重112/240、68/240、60/240；10,000次；PCG64=20261013；2.5%与97.5%线性分位数","沿用主评测：各来源内按4/6/5组重采样并抽5训练种子；权重112/240、68/240、60/240；10,000次；PCG64=20261013；2.5%与97.5%线性分位数；两条件使用同一组抽样索引。",S31,18

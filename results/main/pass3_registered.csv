@@ -1,0 +1,2 @@
+﻿method,all_three_success,prompt_episode_triplets,reported_pass3_pct,status,triplet_file,evidence_scope,source_id,source_locator
+VG-MTP,2026,3300,61.39,actual_result_confirmed,,Reported actual count in A.2; per-triplet success records still to be located,S01,A.2; Table 4-3

@@ -1,0 +1,7 @@
+﻿声明类型,允许工具及字段,检查规则
+peak_observation,stft、fft_envelope、order_spectrum 的峰频率或阶次、幅值和突出度,从对应原始输出复算，先检查单位，再应用容差。
+theoretical_order,bearing_order 的 BPFO、BPFI、BSF、FTF,从已验证的几何输入复算。
+order_match,bearing_order 的 match_deviation,核验观测与理论来源，阶次偏差 ≤ 0.05。
+speed_estimate,signal_qc 的转速序列或转速估计,"复算并检查 max(10 rpm, 1%) 容差及来源冲突。"
+diagnosis(g),对应粒度的组合声明,E(g) 全部满足，关键声明通过四重检查。
+health,正常状态的组合声明,N1–N4 全部满足，关键声明通过四重检查。

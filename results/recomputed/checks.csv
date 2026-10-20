@@ -1,0 +1,113 @@
+﻿paper_table,metric,actual,expected,tolerance,status,evidence_level
+4-2;S2,VG-MTP majority successes,894,894,0,matched,from_exported_records
+4-2;S2,LLM-process-full majority successes,873,873,0,matched,from_exported_records
+4-2;S2,D-only-full majority successes,828,828,0,matched,from_exported_records
+4-2;S2,Final-label-only majority successes,785,785,0,matched,from_exported_records
+4-2;S2,Unadapted majority successes,136,136,0,matched,from_exported_records
+4-2;S2,Dynamic-rule majority successes,163,163,0,matched,from_exported_records
+4-1;S7,main tasks,240,240,0,matched,from_exported_records
+4-1;S7,KAIST task count,112,112,0,matched,from_exported_records
+S7,KAIST source groups,4,4,0,matched,from_exported_records
+4-1;S7,Paderborn task count,68,68,0,matched,from_exported_records
+S7,Paderborn source groups,6,6,0,matched,from_exported_records
+4-1;S7,HB task count,60,60,0,matched,from_exported_records
+S7,HB source groups,5,5,0,matched,from_exported_records
+B5,VG-MTP minus Unadapted primary low,15.25751657196969,15.26,0.0051,matched,from_exported_records
+B5,VG-MTP minus Unadapted sensitivity low,-14.255319148936167,-14.26,0.0051,matched,from_exported_records
+B5,VG-MTP minus Unadapted primary high,20.064285714285703,20.06,0.0051,matched,from_exported_records
+B5,VG-MTP minus Unadapted sensitivity high,27.557196239151377,27.56,0.0051,matched,from_exported_records
+B5,VG-MTP minus Final-label-only primary low,6.723697916666662,6.72,0.0051,matched,from_exported_records
+B5,VG-MTP minus Final-label-only sensitivity low,-23.722351421188634,-23.72,0.0051,matched,from_exported_records
+B5,VG-MTP minus Final-label-only primary high,11.430555555555543,11.43,0.0051,matched,from_exported_records
+B5,VG-MTP minus Final-label-only sensitivity high,20.923373983739836,20.92,0.0051,matched,from_exported_records
+B5,VG-MTP minus D-only-full primary low,3.7760416666666714,3.78,0.0051,matched,from_exported_records
+B5,VG-MTP minus D-only-full sensitivity low,-28.222222222222214,-28.22,0.0051,matched,from_exported_records
+B5,VG-MTP minus D-only-full primary high,6.916666666666671,6.92,0.0051,matched,from_exported_records
+B5,VG-MTP minus D-only-full sensitivity high,18.333333333333336,18.33,0.0051,matched,from_exported_records
+B5,VG-MTP minus LLM-process-full primary low,0.9976154401154325,1.0,0.0051,matched,from_exported_records
+B5,VG-MTP minus LLM-process-full sensitivity low,0.6250000000000142,0.63,0.0051,matched,from_exported_records
+B5,VG-MTP minus LLM-process-full primary high,2.500000000000014,2.5,0.0051,matched,from_exported_records
+B5,VG-MTP minus LLM-process-full sensitivity high,3.191489361702125,3.19,0.0051,matched,from_exported_records
+B5,VG-MTP minus Dynamic-rule primary low,4.5,4.5,0.0051,matched,from_exported_records
+B5,VG-MTP minus Dynamic-rule sensitivity low,-28.444444444444457,-28.44,0.0051,matched,from_exported_records
+B5,VG-MTP minus Dynamic-rule primary high,8.45370370370371,8.45,0.0051,matched,from_exported_records
+B5,VG-MTP minus Dynamic-rule sensitivity high,18.83248730964467,18.83,0.0051,matched,from_exported_records
+B5,LLM-process-full minus D-only-full primary low,1.7499368686868546,1.75,0.0051,matched,from_exported_records
+B5,LLM-process-full minus D-only-full sensitivity low,-30.000000000000007,-30.0,0.0051,matched,from_exported_records
+B5,LLM-process-full minus D-only-full primary high,5.402893518518538,5.4,0.0051,matched,from_exported_records
+B5,LLM-process-full minus D-only-full sensitivity high,17.10659898477158,17.11,0.0051,matched,from_exported_records
+S2,VG-MTP seed 11,72.08333333333333,72.08,0.0051,matched,from_exported_records
+S2,LLM-process-full seed 11,70.41666666666667,70.42,0.0051,matched,from_exported_records
+S2,D-only-full seed 11,67.5,67.5,0.0051,matched,from_exported_records
+S2,Final-label-only seed 11,64.58333333333334,64.58,0.0051,matched,from_exported_records
+S2,VG-MTP seed 23,74.16666666666667,74.17,0.0051,matched,from_exported_records
+S2,LLM-process-full seed 23,72.5,72.5,0.0051,matched,from_exported_records
+S2,D-only-full seed 23,69.16666666666667,69.17,0.0051,matched,from_exported_records
+S2,Final-label-only seed 23,66.25,66.25,0.0051,matched,from_exported_records
+S2,VG-MTP seed 37,75.83333333333333,75.83,0.0051,matched,from_exported_records
+S2,LLM-process-full seed 37,74.16666666666667,74.17,0.0051,matched,from_exported_records
+S2,D-only-full seed 37,70.41666666666667,70.42,0.0051,matched,from_exported_records
+S2,Final-label-only seed 37,63.74999999999999,63.75,0.0051,matched,from_exported_records
+S2,VG-MTP seed 53,73.75,73.75,0.0051,matched,from_exported_records
+S2,LLM-process-full seed 53,71.66666666666667,71.67,0.0051,matched,from_exported_records
+S2,D-only-full seed 53,67.91666666666667,67.92,0.0051,matched,from_exported_records
+S2,Final-label-only seed 53,65.0,65.0,0.0051,matched,from_exported_records
+S2,VG-MTP seed 71,76.66666666666667,76.67,0.0051,matched,from_exported_records
+S2,LLM-process-full seed 71,75.0,75.0,0.0051,matched,from_exported_records
+S2,D-only-full seed 71,70.0,70.0,0.0051,matched,from_exported_records
+S2,Final-label-only seed 71,67.5,67.5,0.0051,matched,from_exported_records
+S11,"paired (1, 1)",869,869,0,matched,from_exported_records
+S11,"paired (1, 0)",25,25,0,matched,from_exported_records
+S11,"paired (0, 1)",4,4,0,matched,from_exported_records
+S11,"paired (0, 0)",302,302,0,matched,from_exported_records
+A.2,VG pooled raw count,7188,7188,0,matched,from_exported_records
+A.2,VG planned executions,9900,9900,0,matched,from_exported_records
+A.2,VG task-equal raw EDS,74.25,74.25,1e-09,matched,from_exported_records
+4-12;4-12,no-binding successes,826,826,0,matched,from_exported_records
+4-12,no-binding paired counts,"[826, 68, 0, 306]","[826, 68, 0, 306]",0,matched,from_exported_records
+4.4.1,full minus no-binding CI low,4.552031249999982,4.55,0.0051,matched,from_exported_records
+4.4.1,full minus no-binding CI high,6.609563492063518,6.61,0.0051,matched,from_exported_records
+4-9;4-18;S3;S4,candidate_records,52,52,0,matched,from_exported_records
+4-9;4-18;S3;S4,included_records,42,42,0,matched,from_exported_records
+4-9;4-18;S3;S4,tasks,84,84,0,matched,from_exported_records
+4-9;4-18;S3;S4,total_executions,840,840,0,matched,from_exported_records
+4-9;4-18;S3;S4,full_success,378,378,0,matched,from_exported_records
+4-9;4-18;S3;S4,alternative_success,354,354,0,matched,from_exported_records
+4-9;4-18;S3;S4,steady_full_success,191,191,0,matched,from_exported_records
+4-9;4-18;S3;S4,decel_full_success,187,187,0,matched,from_exported_records
+4-9,SQV interaction CI low,5.238095238095241,5.24,0.0051,matched,from_exported_records
+4-9,SQV interaction CI high,14.285714285714292,14.29,0.0051,matched,from_exported_records
+4-18,SQV Macro-F1 seed mean,93.08244101515237,93.08,0.0051,matched,from_exported_records
+4-7,diagnosis_accuracy_pct,80.72072072072072,80.72,0.0051,matched,registered_aggregate_arithmetic
+4-7,macro_f1_pct,78.14999999999999,78.15,0.0051,matched,registered_aggregate_arithmetic
+4-7,coverage_pct,89.0,89.0,0.0051,matched,registered_aggregate_arithmetic
+4-7,unsafe_acceptance_pct,13.333333333333334,13.33,0.0051,matched,registered_aggregate_arithmetic
+4-16,HB VG successes,210,210,0,matched,from_exported_records
+4-16,HB Unadapted successes,29,29,0,matched,from_exported_records
+B.9;S8,candidates,1280,1280,0,matched,from_exported_records
+B.9;S8,tasks,252,252,0,matched,from_exported_records
+B.9;S8,input_entries,504,504,0,matched,from_exported_records
+B.9;S8,recording_keys,168,168,0,matched,from_exported_records
+B.9;S8,corpora,20,20,0,matched,from_exported_records
+B.9;S8,corpus_mappings,61440,61440,0,matched,from_exported_records
+B6,d_pass,1096,1096,0,matched,from_exported_records
+B6,llm_eligible,1063,1063,0,matched,from_exported_records
+B6,vg_eligible,1030,1030,0,matched,from_exported_records
+S8,A candidates,598,598,0,matched,from_exported_records
+S8,A tasks,120,120,0,matched,from_exported_records
+S8,A records,84,84,0,matched,from_exported_records
+S8,A selected,478,478,0,matched,from_exported_records
+S8,B candidates,320,320,0,matched,from_exported_records
+S8,B tasks,64,64,0,matched,from_exported_records
+S8,B records,33,33,0,matched,from_exported_records
+S8,B selected,256,256,0,matched,from_exported_records
+S8,C candidates,362,362,0,matched,from_exported_records
+S8,C tasks,68,68,0,matched,from_exported_records
+S8,C records,51,51,0,matched,from_exported_records
+S8,C selected,290,290,0,matched,from_exported_records
+4-13,无强制引用 agreement,97.04861111111111,97.05,0.0051,matched,aggregate_cross_counts
+4-13,仅引用字段 agreement,97.61904761904762,97.62,0.0051,matched,aggregate_cross_counts
+4-13,强制引用＋确定性检查 agreement,98.57142857142857,98.57,0.0051,matched,aggregate_cross_counts
+4-3;A.2,registered actual Pass3 arithmetic,61.39393939393939,61.39,0.0051,matched,registered_actual_count_arithmetic
+C4,proposed equals dispatched + blocked + undecided,72418.0,72418.0,0,matched,manuscript_summary_arithmetic
+C4;4-3,dispatch mean,6.485858585858586,6.49,0.0051,matched,manuscript_summary_arithmetic

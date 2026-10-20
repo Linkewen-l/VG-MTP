@@ -1,0 +1,241 @@
+﻿task_id,source,source_group,partition,file_group_as_registered,input_files,channel,window_start_s,window_end_s,window_interval,reference_label,note,planned_runs_per_seed,source_id,source_row
+MTS-KA-K01-0-1,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_0.csv＋rpm_normal_0.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,2
+MTS-KA-K01-0-2,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_0.csv＋rpm_normal_0.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,3
+MTS-KA-K01-0-3,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_0.csv＋rpm_normal_0.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,4
+MTS-KA-K01-0-4,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_0.csv＋rpm_normal_0.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,5
+MTS-KA-K01-1-1,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_1.csv＋rpm_normal_1.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,6
+MTS-KA-K01-1-2,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_1.csv＋rpm_normal_1.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,7
+MTS-KA-K01-1-3,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_1.csv＋rpm_normal_1.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,8
+MTS-KA-K01-1-4,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_1.csv＋rpm_normal_1.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,9
+MTS-KA-K01-2-1,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_2.csv＋rpm_normal_2.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,10
+MTS-KA-K01-2-2,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_2.csv＋rpm_normal_2.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,11
+MTS-KA-K01-2-3,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_2.csv＋rpm_normal_2.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,12
+MTS-KA-K01-2-4,KAIST,KAIST/normal,封存测试,K01（表 B2 文件组）,vibration_normal_2.csv＋rpm_normal_2.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,13
+MTS-KA-K02-3-1,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_3.csv＋rpm_normal_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,14
+MTS-KA-K02-3-2,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_3.csv＋rpm_normal_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,15
+MTS-KA-K02-3-3,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_3.csv＋rpm_normal_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,16
+MTS-KA-K02-3-4,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_3.csv＋rpm_normal_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,17
+MTS-KA-K02-4-1,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_4.csv＋rpm_normal_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,18
+MTS-KA-K02-4-2,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_4.csv＋rpm_normal_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,19
+MTS-KA-K02-4-3,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_4.csv＋rpm_normal_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,20
+MTS-KA-K02-4-4,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_4.csv＋rpm_normal_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,21
+MTS-KA-K02-5-1,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_5.csv＋rpm_normal_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,22
+MTS-KA-K02-5-2,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_5.csv＋rpm_normal_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,23
+MTS-KA-K02-5-3,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_5.csv＋rpm_normal_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,24
+MTS-KA-K02-5-4,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_5.csv＋rpm_normal_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,25
+MTS-KA-K02-6-1,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_6.csv＋rpm_normal_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,26
+MTS-KA-K02-6-2,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_6.csv＋rpm_normal_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,27
+MTS-KA-K02-6-3,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_6.csv＋rpm_normal_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,28
+MTS-KA-K02-6-4,KAIST,KAIST/normal,封存测试,K02（表 B2 文件组）,vibration_normal_6.csv＋rpm_normal_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",normal（正常）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,29
+MTS-KA-K03-0-1,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_0.csv＋rpm_inner_0.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,30
+MTS-KA-K03-0-2,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_0.csv＋rpm_inner_0.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,31
+MTS-KA-K03-0-3,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_0.csv＋rpm_inner_0.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,32
+MTS-KA-K03-0-4,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_0.csv＋rpm_inner_0.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,33
+MTS-KA-K03-1-1,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_1.csv＋rpm_inner_1.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,34
+MTS-KA-K03-1-2,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_1.csv＋rpm_inner_1.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,35
+MTS-KA-K03-1-3,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_1.csv＋rpm_inner_1.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,36
+MTS-KA-K03-1-4,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_1.csv＋rpm_inner_1.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,37
+MTS-KA-K03-2-1,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_2.csv＋rpm_inner_2.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,38
+MTS-KA-K03-2-2,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_2.csv＋rpm_inner_2.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,39
+MTS-KA-K03-2-3,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_2.csv＋rpm_inner_2.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,40
+MTS-KA-K03-2-4,KAIST,KAIST/inner,封存测试,K03（表 B2 文件组）,vibration_inner_2.csv＋rpm_inner_2.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,41
+MTS-KA-K04-3-1,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_3.csv＋rpm_inner_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,42
+MTS-KA-K04-3-2,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_3.csv＋rpm_inner_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,43
+MTS-KA-K04-3-3,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_3.csv＋rpm_inner_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,44
+MTS-KA-K04-3-4,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_3.csv＋rpm_inner_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,45
+MTS-KA-K04-4-1,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_4.csv＋rpm_inner_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,46
+MTS-KA-K04-4-2,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_4.csv＋rpm_inner_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,47
+MTS-KA-K04-4-3,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_4.csv＋rpm_inner_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,48
+MTS-KA-K04-4-4,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_4.csv＋rpm_inner_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,49
+MTS-KA-K04-5-1,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_5.csv＋rpm_inner_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,50
+MTS-KA-K04-5-2,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_5.csv＋rpm_inner_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,51
+MTS-KA-K04-5-3,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_5.csv＋rpm_inner_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,52
+MTS-KA-K04-5-4,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_5.csv＋rpm_inner_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,53
+MTS-KA-K04-6-1,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_6.csv＋rpm_inner_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,54
+MTS-KA-K04-6-2,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_6.csv＋rpm_inner_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,55
+MTS-KA-K04-6-3,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_6.csv＋rpm_inner_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,56
+MTS-KA-K04-6-4,KAIST,KAIST/inner,封存测试,K04（表 B2 文件组）,vibration_inner_6.csv＋rpm_inner_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",inner（内圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,57
+MTS-KA-K05-0-1,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_0.csv＋rpm_outer_0.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,58
+MTS-KA-K05-0-2,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_0.csv＋rpm_outer_0.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,59
+MTS-KA-K05-0-3,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_0.csv＋rpm_outer_0.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,60
+MTS-KA-K05-0-4,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_0.csv＋rpm_outer_0.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,61
+MTS-KA-K05-1-1,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_1.csv＋rpm_outer_1.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,62
+MTS-KA-K05-1-2,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_1.csv＋rpm_outer_1.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,63
+MTS-KA-K05-1-3,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_1.csv＋rpm_outer_1.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,64
+MTS-KA-K05-1-4,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_1.csv＋rpm_outer_1.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,65
+MTS-KA-K05-2-1,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_2.csv＋rpm_outer_2.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,66
+MTS-KA-K05-2-2,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_2.csv＋rpm_outer_2.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,67
+MTS-KA-K05-2-3,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_2.csv＋rpm_outer_2.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,68
+MTS-KA-K05-2-4,KAIST,KAIST/outer,封存测试,K05（表 B2 文件组）,vibration_outer_2.csv＋rpm_outer_2.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,69
+MTS-KA-K06-3-1,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_3.csv＋rpm_outer_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,70
+MTS-KA-K06-3-2,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_3.csv＋rpm_outer_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,71
+MTS-KA-K06-3-3,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_3.csv＋rpm_outer_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,72
+MTS-KA-K06-3-4,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_3.csv＋rpm_outer_3.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,73
+MTS-KA-K06-4-1,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_4.csv＋rpm_outer_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,74
+MTS-KA-K06-4-2,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_4.csv＋rpm_outer_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,75
+MTS-KA-K06-4-3,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_4.csv＋rpm_outer_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,76
+MTS-KA-K06-4-4,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_4.csv＋rpm_outer_4.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,77
+MTS-KA-K06-5-1,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_5.csv＋rpm_outer_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,78
+MTS-KA-K06-5-2,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_5.csv＋rpm_outer_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,79
+MTS-KA-K06-5-3,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_5.csv＋rpm_outer_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,80
+MTS-KA-K06-5-4,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_5.csv＋rpm_outer_5.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,81
+MTS-KA-K06-6-1,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_6.csv＋rpm_outer_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,82
+MTS-KA-K06-6-2,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_6.csv＋rpm_outer_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,83
+MTS-KA-K06-6-3,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_6.csv＋rpm_outer_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,84
+MTS-KA-K06-6-4,KAIST,KAIST/outer,封存测试,K06（表 B2 文件组）,vibration_outer_6.csv＋rpm_outer_6.csv,vibration 取 第 4 列 x_B（主通道）＋第 5 列 y_B（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",outer（外圈）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,85
+MTS-KA-K07-0-1,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_0.csv＋rpm_ball_0.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,86
+MTS-KA-K07-0-2,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_0.csv＋rpm_ball_0.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,87
+MTS-KA-K07-0-3,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_0.csv＋rpm_ball_0.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,88
+MTS-KA-K07-0-4,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_0.csv＋rpm_ball_0.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,89
+MTS-KA-K07-1-1,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_1.csv＋rpm_ball_1.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,90
+MTS-KA-K07-1-2,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_1.csv＋rpm_ball_1.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,91
+MTS-KA-K07-1-3,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_1.csv＋rpm_ball_1.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,92
+MTS-KA-K07-1-4,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_1.csv＋rpm_ball_1.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,93
+MTS-KA-K07-2-1,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_2.csv＋rpm_ball_2.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,94
+MTS-KA-K07-2-2,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_2.csv＋rpm_ball_2.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,95
+MTS-KA-K07-2-3,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_2.csv＋rpm_ball_2.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,96
+MTS-KA-K07-2-4,KAIST,KAIST/ball,封存测试,K07（表 B2 文件组）,vibration_ball_2.csv＋rpm_ball_2.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,97
+MTS-KA-K08-3-1,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_3.csv＋rpm_ball_3.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,98
+MTS-KA-K08-3-2,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_3.csv＋rpm_ball_3.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,99
+MTS-KA-K08-3-3,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_3.csv＋rpm_ball_3.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,100
+MTS-KA-K08-3-4,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_3.csv＋rpm_ball_3.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,101
+MTS-KA-K08-4-1,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_4.csv＋rpm_ball_4.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,102
+MTS-KA-K08-4-2,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_4.csv＋rpm_ball_4.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,103
+MTS-KA-K08-4-3,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_4.csv＋rpm_ball_4.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,104
+MTS-KA-K08-4-4,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_4.csv＋rpm_ball_4.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,105
+MTS-KA-K08-5-1,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_5.csv＋rpm_ball_5.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,106
+MTS-KA-K08-5-2,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_5.csv＋rpm_ball_5.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,107
+MTS-KA-K08-5-3,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_5.csv＋rpm_ball_5.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,108
+MTS-KA-K08-5-4,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_5.csv＋rpm_ball_5.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,109
+MTS-KA-K08-6-1,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_6.csv＋rpm_ball_6.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,0.0,60.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,110
+MTS-KA-K08-6-2,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_6.csv＋rpm_ball_6.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,60.0,120.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,111
+MTS-KA-K08-6-3,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_6.csv＋rpm_ball_6.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,120.0,180.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,112
+MTS-KA-K08-6-4,KAIST,KAIST/ball,封存测试,K08（表 B2 文件组）,vibration_ball_6.csv＋rpm_ball_6.csv,vibration 取 第 2 列 x_A（主通道）＋第 3 列 y_A（单位 g）；rpm 取第 2 列 speed 列,180.0,240.0,"[start,end)",ball（滚动体）,300 s 记录取前 240 s＝4×60 s 窗,9,S05,113
+MTS-PA-KA16-1,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_1.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,114
+MTS-PA-KA16-2,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_2.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,115
+MTS-PA-KA16-3,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_3.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,116
+MTS-PA-KA16-4,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_4.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,117
+MTS-PA-KA16-5,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_5.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,118
+MTS-PA-KA16-6,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_6.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,119
+MTS-PA-KA16-7,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_7.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,120
+MTS-PA-KA16-8,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_8.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,121
+MTS-PA-KA16-9,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_9.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,122
+MTS-PA-KA16-10,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_10.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,123
+MTS-PA-KA16-11,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_11.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,124
+MTS-PA-KA16-12,Paderborn,Paderborn/KA16,封存测试,P-TS-KA16,N15_M07_F10_KA16_12.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,125
+MTS-PA-KA22-1,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_1.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,126
+MTS-PA-KA22-2,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_2.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,127
+MTS-PA-KA22-3,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_3.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,128
+MTS-PA-KA22-4,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_4.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,129
+MTS-PA-KA22-5,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_5.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,130
+MTS-PA-KA22-6,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_6.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,131
+MTS-PA-KA22-7,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_7.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,132
+MTS-PA-KA22-8,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_8.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,133
+MTS-PA-KA22-9,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_9.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,134
+MTS-PA-KA22-10,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_10.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,135
+MTS-PA-KA22-11,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_11.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,136
+MTS-PA-KA22-12,Paderborn,Paderborn/KA22,封存测试,P-TS-KA22,N15_M07_F10_KA22_12.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,137
+MTS-PA-KA30-1,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_1.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,138
+MTS-PA-KA30-2,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_2.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,139
+MTS-PA-KA30-3,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_3.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,140
+MTS-PA-KA30-4,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_4.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,141
+MTS-PA-KA30-5,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_5.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,142
+MTS-PA-KA30-6,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_6.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,143
+MTS-PA-KA30-7,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_7.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,144
+MTS-PA-KA30-8,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_8.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,145
+MTS-PA-KA30-9,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_9.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,146
+MTS-PA-KA30-10,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_10.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,147
+MTS-PA-KA30-11,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_11.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,148
+MTS-PA-KA30-12,Paderborn,Paderborn/KA30,封存测试,P-TS-KA30,N15_M07_F10_KA30_12.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,149
+MTS-PA-KI14-1,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_1.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,150
+MTS-PA-KI14-2,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_2.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,151
+MTS-PA-KI14-3,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_3.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,152
+MTS-PA-KI14-4,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_4.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,153
+MTS-PA-KI14-5,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_5.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,154
+MTS-PA-KI14-6,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_6.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,155
+MTS-PA-KI14-7,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_7.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,156
+MTS-PA-KI14-8,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_8.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,157
+MTS-PA-KI14-9,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_9.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,158
+MTS-PA-KI14-10,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_10.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,159
+MTS-PA-KI14-11,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_11.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,160
+MTS-PA-KI14-12,Paderborn,Paderborn/KI14,封存测试,P-TS-KI14,N15_M07_F10_KI14_12.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,161
+MTS-PA-KI18-1,Paderborn,Paderborn/KI18,封存测试,P-TS-KI18,N15_M07_F10_KI18_1.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,162
+MTS-PA-KI18-2,Paderborn,Paderborn/KI18,封存测试,P-TS-KI18,N15_M07_F10_KI18_2.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,163
+MTS-PA-KI18-3,Paderborn,Paderborn/KI18,封存测试,P-TS-KI18,N15_M07_F10_KI18_3.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,164
+MTS-PA-KI18-4,Paderborn,Paderborn/KI18,封存测试,P-TS-KI18,N15_M07_F10_KI18_4.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,165
+MTS-PA-KI18-5,Paderborn,Paderborn/KI18,封存测试,P-TS-KI18,N15_M07_F10_KI18_5.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,166
+MTS-PA-KI18-6,Paderborn,Paderborn/KI18,封存测试,P-TS-KI18,N15_M07_F10_KI18_6.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,167
+MTS-PA-KI18-7,Paderborn,Paderborn/KI18,封存测试,P-TS-KI18,N15_M07_F10_KI18_7.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,168
+MTS-PA-KI18-8,Paderborn,Paderborn/KI18,封存测试,P-TS-KI18,N15_M07_F10_KI18_8.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,169
+MTS-PA-KI18-9,Paderborn,Paderborn/KI18,封存测试,P-TS-KI18,N15_M07_F10_KI18_9.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,170
+MTS-PA-KI18-10,Paderborn,Paderborn/KI18,封存测试,P-TS-KI18,N15_M07_F10_KI18_10.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,171
+MTS-PA-KI21-1,Paderborn,Paderborn/KI21,封存测试,P-TS-KI21,N15_M07_F10_KI21_1.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,172
+MTS-PA-KI21-2,Paderborn,Paderborn/KI21,封存测试,P-TS-KI21,N15_M07_F10_KI21_2.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,173
+MTS-PA-KI21-3,Paderborn,Paderborn/KI21,封存测试,P-TS-KI21,N15_M07_F10_KI21_3.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,174
+MTS-PA-KI21-4,Paderborn,Paderborn/KI21,封存测试,P-TS-KI21,N15_M07_F10_KI21_4.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,175
+MTS-PA-KI21-5,Paderborn,Paderborn/KI21,封存测试,P-TS-KI21,N15_M07_F10_KI21_5.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,176
+MTS-PA-KI21-6,Paderborn,Paderborn/KI21,封存测试,P-TS-KI21,N15_M07_F10_KI21_6.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,177
+MTS-PA-KI21-7,Paderborn,Paderborn/KI21,封存测试,P-TS-KI21,N15_M07_F10_KI21_7.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,178
+MTS-PA-KI21-8,Paderborn,Paderborn/KI21,封存测试,P-TS-KI21,N15_M07_F10_KI21_8.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,179
+MTS-PA-KI21-9,Paderborn,Paderborn/KI21,封存测试,P-TS-KI21,N15_M07_F10_KI21_9.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,180
+MTS-PA-KI21-10,Paderborn,Paderborn/KI21,封存测试,P-TS-KI21,N15_M07_F10_KI21_10.mat,"mat 内振动信号列（第 1 信号列，尚未核实）；转速由工况给定＝1,500 rpm（文件名 N15_M07）",0.0,4.0,"[start,end)",真实损伤（原论文表 5）,官方编号；整条记录＝1 任务,9,S05,181
+MEXT-H-A-1,HB,HB/H,外部测试,HB-H-A,H-A-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,182
+MEXT-H-A-2,HB,HB/H,外部测试,HB-H-A,H-A-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,183
+MEXT-H-A-3,HB,HB/H,外部测试,HB-H-A,H-A-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,184
+MEXT-H-B-1,HB,HB/H,外部测试,HB-H-B,H-B-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,185
+MEXT-H-B-2,HB,HB/H,外部测试,HB-H-B,H-B-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,186
+MEXT-H-B-3,HB,HB/H,外部测试,HB-H-B,H-B-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,187
+MEXT-H-C-1,HB,HB/H,外部测试,HB-H-C,H-C-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,188
+MEXT-H-C-2,HB,HB/H,外部测试,HB-H-C,H-C-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,189
+MEXT-H-C-3,HB,HB/H,外部测试,HB-H-C,H-C-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,190
+MEXT-H-D-1,HB,HB/H,外部测试,HB-H-D,H-D-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,191
+MEXT-H-D-2,HB,HB/H,外部测试,HB-H-D,H-D-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,192
+MEXT-H-D-3,HB,HB/H,外部测试,HB-H-D,H-D-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",健康,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,193
+MEXT-I-A-1,HB,HB/I,外部测试,HB-I-A,I-A-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,194
+MEXT-I-A-2,HB,HB/I,外部测试,HB-I-A,I-A-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,195
+MEXT-I-A-3,HB,HB/I,外部测试,HB-I-A,I-A-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,196
+MEXT-I-B-1,HB,HB/I,外部测试,HB-I-B,I-B-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,197
+MEXT-I-B-2,HB,HB/I,外部测试,HB-I-B,I-B-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,198
+MEXT-I-B-3,HB,HB/I,外部测试,HB-I-B,I-B-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,199
+MEXT-I-C-1,HB,HB/I,外部测试,HB-I-C,I-C-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,200
+MEXT-I-C-2,HB,HB/I,外部测试,HB-I-C,I-C-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,201
+MEXT-I-C-3,HB,HB/I,外部测试,HB-I-C,I-C-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,202
+MEXT-I-D-1,HB,HB/I,外部测试,HB-I-D,I-D-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,203
+MEXT-I-D-2,HB,HB/I,外部测试,HB-I-D,I-D-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,204
+MEXT-I-D-3,HB,HB/I,外部测试,HB-I-D,I-D-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",内圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,205
+MEXT-O-A-1,HB,HB/O,外部测试,HB-O-A,O-A-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,206
+MEXT-O-A-2,HB,HB/O,外部测试,HB-O-A,O-A-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,207
+MEXT-O-A-3,HB,HB/O,外部测试,HB-O-A,O-A-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,208
+MEXT-O-B-1,HB,HB/O,外部测试,HB-O-B,O-B-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,209
+MEXT-O-B-2,HB,HB/O,外部测试,HB-O-B,O-B-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,210
+MEXT-O-B-3,HB,HB/O,外部测试,HB-O-B,O-B-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,211
+MEXT-O-C-1,HB,HB/O,外部测试,HB-O-C,O-C-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,212
+MEXT-O-C-2,HB,HB/O,外部测试,HB-O-C,O-C-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,213
+MEXT-O-C-3,HB,HB/O,外部测试,HB-O-C,O-C-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,214
+MEXT-O-D-1,HB,HB/O,外部测试,HB-O-D,O-D-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,215
+MEXT-O-D-2,HB,HB/O,外部测试,HB-O-D,O-D-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,216
+MEXT-O-D-3,HB,HB/O,外部测试,HB-O-D,O-D-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",外圈故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,217
+MEXT-B-A-1,HB,HB/B,外部测试,HB-B-A,B-A-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,218
+MEXT-B-A-2,HB,HB/B,外部测试,HB-B-A,B-A-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,219
+MEXT-B-A-3,HB,HB/B,外部测试,HB-B-A,B-A-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,220
+MEXT-B-B-1,HB,HB/B,外部测试,HB-B-B,B-B-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,221
+MEXT-B-B-2,HB,HB/B,外部测试,HB-B-B,B-B-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,222
+MEXT-B-B-3,HB,HB/B,外部测试,HB-B-B,B-B-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,223
+MEXT-B-C-1,HB,HB/B,外部测试,HB-B-C,B-C-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,224
+MEXT-B-C-2,HB,HB/B,外部测试,HB-B-C,B-C-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,225
+MEXT-B-C-3,HB,HB/B,外部测试,HB-B-C,B-C-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,226
+MEXT-B-D-1,HB,HB/B,外部测试,HB-B-D,B-D-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,227
+MEXT-B-D-2,HB,HB/B,外部测试,HB-B-D,B-D-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,228
+MEXT-B-D-3,HB,HB/B,外部测试,HB-B-D,B-D-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",滚动体故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,229
+MEXT-C-A-1,HB,HB/C,外部测试,HB-C-A,C-A-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,230
+MEXT-C-A-2,HB,HB/C,外部测试,HB-C-A,C-A-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,231
+MEXT-C-A-3,HB,HB/C,外部测试,HB-C-A,C-A-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,232
+MEXT-C-B-1,HB,HB/C,外部测试,HB-C-B,C-B-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,233
+MEXT-C-B-2,HB,HB/C,外部测试,HB-C-B,C-B-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,234
+MEXT-C-B-3,HB,HB/C,外部测试,HB-C-B,C-B-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,235
+MEXT-C-C-1,HB,HB/C,外部测试,HB-C-C,C-C-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,236
+MEXT-C-C-2,HB,HB/C,外部测试,HB-C-C,C-C-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,237
+MEXT-C-C-3,HB,HB/C,外部测试,HB-C-C,C-C-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,238
+MEXT-C-D-1,HB,HB/C,外部测试,HB-C-D,C-D-1.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,239
+MEXT-C-D-2,HB,HB/C,外部测试,HB-C-D,C-D-2.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,240
+MEXT-C-D-3,HB,HB/C,外部测试,HB-C-D,C-D-3.mat,振动列＋转速列（第 1/2 列（尚未核实））,0.0,10.0,"[start,end)",复合故障,20 条件组＝5 状态×4 轨迹（工况组，非独立重采样单位）,6,S05,241

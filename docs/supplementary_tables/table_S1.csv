@@ -1,0 +1,10 @@
+﻿Group,Health state,Filename key s,File indices k,Records,Nominal duration (s)
+K01,Normal,normal,"0, 1, 2",3,900
+K02,Normal,normal,"3, 4, 5, 6",4,"1,200"
+K03,Inner-race fault,inner,"0, 1, 2",3,900
+K04,Inner-race fault,inner,"3, 4, 5, 6",4,"1,200"
+K05,Outer-race fault,outer,"0, 1, 2",3,900
+K06,Outer-race fault,outer,"3, 4, 5, 6",4,"1,200"
+K07,Ball fault,ball,"0, 1, 2",3,900
+K08,Ball fault,ball,"3, 4, 5, 6",4,"1,200"
+Total,Four health states,—,0–6 per state,28,"8,400"

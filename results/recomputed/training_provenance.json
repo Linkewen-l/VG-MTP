@@ -1,0 +1,20 @@
+{
+  "candidates": 1280,
+  "tasks": 252,
+  "input_entries": 504,
+  "recording_keys": 168,
+  "physical_files": 168,
+  "corpora": 20,
+  "corpus_mappings": 61440,
+  "complete_trajectories": 1280,
+  "screening": {
+    "d_pass": 1096,
+    "llm_eligible": 1063,
+    "vg_eligible": 1030
+  },
+  "registered_datasets": {
+    "HUST": 99,
+    "PB": 69
+  },
+  "scope": "Registered candidate, task, input and corpus joins; file identities and selection counts."
+}

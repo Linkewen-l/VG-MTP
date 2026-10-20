@@ -1,0 +1,87 @@
+{
+  "verifier_version": "canonical v2.0.0",
+  "registered_commit": "c7e412a8b40f91d3e6c205a7b8d19e4f3c6a8201",
+  "artifact_kind": "manuscript_configuration_specification",
+  "source_id": "S01",
+  "source_tables": [
+    "B2",
+    "B3",
+    "C1",
+    "C2",
+    "S9",
+    "S10"
+  ],
+  "decoding": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "repetition_penalty": 1.05,
+    "max_new_tokens": 1024,
+    "max_model_len": 32768
+  },
+  "training": {
+    "seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "backbone": "Qwen/Qwen3.5-9B",
+    "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "max_steps": 192,
+    "sequence_length": 8192
+  },
+  "limits": {
+    "max_dispatched_calls": 12,
+    "tool_timeout_seconds": 30,
+    "episode_timeout_seconds": 180
+  },
+  "thresholds": {
+    "order_match_absolute": 0.05,
+    "speed_source_relative_disagreement": 0.1,
+    "tachometer_quality_min": 0.8,
+    "expert_adom_min": 0.7,
+    "acceptance": 0.72
+  },
+  "tolerances": {
+    "speed": "max(10 rpm, 1%)",
+    "frequency": "max(0.5 Hz, 1%)",
+    "normalized_scores_absolute": 0.01,
+    "amplitude_relative": 0.02
+  },
+  "acceptance": {
+    "intercept": -2.0,
+    "feature_order": [
+      "qsig",
+      "adom",
+      "REC",
+      "NF",
+      "PC",
+      "pplan",
+      "relevant_conflict"
+    ],
+    "weights": [
+      1.0,
+      0.6,
+      1.2,
+      0.8,
+      0.5,
+      0.3,
+      -1.5
+    ],
+    "function": "sigmoid(intercept + dot(weights, features)); evidence gate must pass first"
+  },
+  "tools": {
+    "signal_qc": "v1.0",
+    "stft": "v1.0",
+    "fft_envelope": "v1.0",
+    "order_resample": "v1.0",
+    "order_spectrum": "v1.0",
+    "bearing_order": "v1.0",
+    "claim_checker": "v1.0",
+    "expert_classifier": "v1.0"
+  }
+}

@@ -1,0 +1,12 @@
+﻿repository_table,title,file
+S1,KAIST variable-speed file groups.,docs/supplementary_tables/table_S1.csv
+S2,Seed-level EDS for the primary 240-task evaluation.,docs/supplementary_tables/table_S2.csv
+S3,SQV EDS by training seed and the speed-phase × workflow interaction.,docs/supplementary_tables/table_S3.csv
+S4,SQV source groups and included recordings.,docs/supplementary_tables/table_S4.csv
+S5,Actual SQV window starts relative to the beginning of each recording.,docs/supplementary_tables/table_S5.csv
+S6,Registered recording selection by partition.,docs/supplementary_tables/table_S6.csv
+S7,Main-evaluation groups and task counts.,docs/supplementary_tables/table_S7.csv
+S8,Matching strata and registered training sources.,docs/supplementary_tables/table_S8.csv
+S9,Frozen signal processing parameters.,docs/supplementary_tables/table_S9.csv
+S10,Tool inputs outputs and prerequisite checks.,docs/supplementary_tables/table_S10.csv
+S11,Paired majority outcomes by training seed.,docs/supplementary_tables/table_S11.csv

@@ -1,0 +1,14 @@
+{
+  "title": "VG-MTP reproducibility materials",
+  "date": "2026-10-20",
+  "version": "review-v1",
+  "manuscript": {
+    "filename": "Manuscript_CH_9.2_附录与GitHub配套审阅版_v1_20261020.docx",
+    "sha256": "29aaa54eb0f26aac9c9c0e5000bdd0623f2bef435944840f606d5d33f1e47d6e"
+  },
+  "verifier": "canonical v2.0.0",
+  "paper_map": "paper_map.csv",
+  "supplementary_tables": "docs/supplementary_tables/index.csv",
+  "statistical_entry": "python analysis/recompute.py",
+  "file_verification": "python analysis/verify_checksums.py"
+}

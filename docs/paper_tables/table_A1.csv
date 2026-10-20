@@ -1,0 +1,6 @@
+﻿Gate,Name,Episode-level pass condition
+D,Correct terminal decision,"The final diagnosis agrees with the sealed ground truth at the required granularity, or the system abstains correctly on an episode for which the specification requires abstention."
+X,Actually executable,"All cited tool calls were actually executed and produced logged observations; no environmental output is fabricated, recomputed, or substituted by the model."
+P,Legal prerequisites,"Every dispatched call passes offline checks of parameter schema, physical units, metadata, applicability domain and tool-specific prerequisites. Any violation makes P = 0 for that raw execution, whether or not the call is cited in the final report. Blocked proposals are not dispatched calls."
+T,Legal trajectory,"The action–observation sequence conforms to required upstream states, dependency partial order, budget, timeout, error-recovery, and terminal rules, and does not access privileged labels."
+G,Sufficient evidence,"Evidence required for the target diagnostic granularity is complete, and critical claims pass provenance, numerical, semantic, and dependency validation."

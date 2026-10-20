@@ -1,0 +1,11 @@
+{
+  "vg_success": 210,
+  "vg_denominator": 300,
+  "unadapted_success": 29,
+  "unadapted_denominator": 60,
+  "difference_pp": 21.666666666666668,
+  "ci95_pp": [
+    14.333333333333334,
+    28.333333333333332
+  ]
+}

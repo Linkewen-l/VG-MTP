@@ -1,0 +1,29 @@
+{
+  "candidate_records": 52,
+  "included_records": 42,
+  "tasks": 84,
+  "paired_rows": 420,
+  "total_executions": 840,
+  "full_success": 378,
+  "alternative_success": 354,
+  "full_eds_pct": 90.0,
+  "steady_full_success": 191,
+  "decel_full_success": 187,
+  "steady_gain_pp": 0.952380952380949,
+  "decel_gain_pp": 10.476190476190467,
+  "steady_ci95_pp": [
+    0.0,
+    3.3333333333333286
+  ],
+  "decel_ci95_pp": [
+    5.714285714285722,
+    15.714285714285708
+  ],
+  "interaction_ci95_pp": [
+    5.238095238095241,
+    14.285714285714292
+  ],
+  "interaction_pp": 9.523809523809518,
+  "macro_f1_seed_mean_pct": 93.08244101515237,
+  "macro_f1_pooled_pct": 93.15213280939888
+}

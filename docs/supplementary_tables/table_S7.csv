@@ -1,0 +1,17 @@
+﻿Source group,Record indices / file labels,Records,Tasks
+KAIST / normal,K01/K02; k = 0–6,7,28
+KAIST / inner,K03/K04; k = 0–6,7,28
+KAIST / outer,K05/K06; k = 0–6,7,28
+KAIST / ball,K07/K08; k = 0–6,7,28
+Paderborn / KA16,i = 1–12,12,12
+Paderborn / KA22,i = 1–12,12,12
+Paderborn / KA30,i = 1–12,12,12
+Paderborn / KI14,i = 1–12,12,12
+Paderborn / KI18,i = 1–10,10,10
+Paderborn / KI21,i = 1–10,10,10
+HB / H,A–D; trials 1–3,12,12
+HB / I,A–D; trials 1–3,12,12
+HB / O,A–D; trials 1–3,12,12
+HB / B,A–D; trials 1–3,12,12
+HB / C,A–D; trials 1–3,12,12
+Total,15 source groups,156,240
