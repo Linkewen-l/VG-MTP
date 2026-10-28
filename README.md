@@ -11,7 +11,9 @@ This repository provides paired evaluation outcomes, exact task and window manif
 | SQV evaluation | 42 recordings, 84 tasks and 840 workflow executions | Full EDS 90.00%; seed-mean Macro-F1 93.08%; phase interaction 9.52 pp, [5.24, 14.29] |
 | Training provenance | 1,280 candidates, 252 tasks, 168 records and 20 corpora | 99 HUST and 69 Paderborn records; 61,440 corpus-instance mappings |
 
-[中文阅读说明](README_CN.md) · [Paper-to-file index](paper_map.csv) · [Statistical guide](docs/reproduction.md) · [Supplementary Tables S1–S11](docs/supplementary_tables/README.md)
+[中文阅读说明](README_CN.md) · [Paper-to-file index](paper_map.csv) · [Statistical guide](docs/reproduction.md) · [Supplementary Tables S1–S20](docs/supplementary_tables/README.md)
+
+Tables S12–S20 contain the numerical source tables for Figures 4-1–4-5 in the revised manuscript. The [figure-to-table mapping](docs/supplementary_tables/figure_table_map.csv) records their former Appendix D labels.
 
 ## Recompute the results
 

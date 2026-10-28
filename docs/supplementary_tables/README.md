@@ -1,6 +1,6 @@
 # Supplementary tables
 
-Tables S1–S11 provide the detailed records and specifications cited by the accompanying manuscript. The statistics guide identifies the data and scripts used for numerical recomputation.
+Tables S1–S20 provide the detailed records and specifications cited by the accompanying manuscript. The statistics guide identifies the data and scripts used for numerical recomputation. Tables S12–S20 are the numerical source tables for manuscript Figures 4-1–4-5, moved from Appendix D of the 28 October 2026 draft. Their displayed values, units and uncertainty definitions are preserved. [Figure-to-table mapping](figure_table_map.csv) links each table to its figure panel and manuscript section.
 
 ## Table S1
 
@@ -191,3 +191,165 @@ Paired majority outcomes by training seed.
 | 53 | 172 | 5 | 0 | 63 | 177 / 172 | +2.08 |
 | 71 | 179 | 5 | 1 | 55 | 184 / 180 | +1.67 |
 | All five seeds | 869 | 25 | 4 | 302 | 894 / 873 | +1.75 |
+
+
+## Table S12
+
+Main EDS comparison for matched filtering and the supervision reference.
+
+Source for Figure 4-1(a–b); manuscript Section 4.2.1.
+
+[Download CSV](table_S12.csv)
+
+| Method | Raw EDS<br>successes / runs | Majority EDS<br>successes / pairs (%) | Task-equal raw<br>EDS (%) | VG − method<br>pp [95% interval] |
+| --- | --- | --- | --- | --- |
+| Final-label-only | — | 785 / 1,200 (65.42) | — | +9.08 [6.72, 11.43] |
+| D-only-full | 6,630 / 9,900 | 828 / 1,200 (69.00) | 68.75 | +5.50 [3.78, 6.92] |
+| LLM-process-full | 7,038 / 9,900 | 873 / 1,200 (72.75) | 72.67 | +1.75 [1.00, 2.50] |
+| VG-MTP | 7,188 / 9,900 | 894 / 1,200 (74.50) | 74.25 | Reference |
+
+Note: 240 tasks × five training seeds. The three full-trajectory conditions match training size, supervision format and update budget. Final-label-only is a supervision-package reference. Raw counts retain all planned runs; its unavailable raw summary is marked with a dash. Differences favor VG-MTP and use the 15-group paired protocol. Source records and computation are specified in Appendix B.3.
+
+The task–seed pairing used in Figure 4-1(c–d) is retained in [Repository Table S11](#table-s11) and [the paired outcomes](../../results/main/paired_task_seed.csv).
+
+
+## Table S13
+
+Misrouting under hard distractors.
+
+Source for Figure 4-2(g); manuscript Section 4.3.2.
+
+[Download CSV](table_S13.csv)
+
+| Condition | Hard-distractor misrouting rate ↓ |
+| --- | --- |
+| Unadapted agent | 21.7 |
+| Final-label-only SFT | 14.2 |
+| VG-MTP | 7.9 |
+
+Note: Misrouting values are percentages. Hard-distractor misrouting and the failure-event incidences in Table S14 use their own task sets.
+
+
+## Table S14
+
+Incidence of major failure events (an episode may have multiple labels).
+
+Source for Figure 4-2(a–f); manuscript Section 4.3.2.
+
+[Download CSV](table_S14.csv)
+
+| Failure event | Unadapted agent | Final-label-only SFT | VG-MTP |
+| --- | --- | --- | --- |
+| Selection of an inapplicable tool | 12.5% | 8.3% | 4.6% |
+| Parameter, schema, or unit error | 9.2% | 5.8% | 2.5% |
+| Diagnosis submitted despite insufficient evidence | 8.8% | 6.3% | 2.9% |
+| Citation present but does not support the claim | 7.5% | 5.4% | 2.1% |
+| Incorrect abstention | 3.8% | 3.3% | 4.2% |
+| At least one timeout or budget exhaustion | 1.7% | 1.3% | 1.3% |
+
+Note: Events are measured at the base-episode level and may overlap; their proportions cannot be summed. Tool-selection and parameter errors include proposals blocked before dispatch. These denominators differ from claim-level UCR.
+
+
+## Table S15
+
+Paired workflow comparison across SQV steady-speed and deceleration phases.
+
+Source for Figure 4-3(a); manuscript Section 4.3.3.
+
+[Download CSV](table_S15.csv)
+
+| Speed phase / contrast | Full EDS (%) | Alternative EDS (%) | Difference (pp) | Conditional 95% interval (pp) |
+| --- | --- | --- | --- | --- |
+| Steady speed | 90.95 | 90.00 | +0.95 | [0.00, 3.33] |
+| Deceleration | 89.05 | 78.57 | +10.48 | [5.71, 15.71] |
+| Phase × workflow interaction | — | — | +9.52 | [5.24, 14.29] |
+
+Note: 42 tasks per phase × two workflows × five seeds = 840 executions. Full/alternative successes are 191/189 of 210 at steady speed and 187/165 of 210 during deceleration. Conditional intervals use the seven-state-group protocol in Section 4.1; differences use unrounded rates. A dash marks an inapplicable cell.
+
+
+## Table S16
+
+Diagnostic performance and matching error in the pooled variable-speed evaluation.
+
+Source for Figure 4-3(b); manuscript Section 4.3.3.
+
+[Download CSV](table_S16.csv)
+
+| Analysis stratum | Tool condition | EDS (%) | Full-tool advantage (pp) [reported 95% interval] | Macro-F1 | Theory–observation error |
+| --- | --- | --- | --- | --- | --- |
+| Variable speed | Full order-tracking toolset | 78.3 | Reference | 82.4 | 0.031 order |
+| Variable speed | STFT/segmented-FFT substitute | 64.2 | +14.1 [7.2, 21.0] | 71.6 | 0.118 order |
+| Variable speed | No speed-synchronous tools | 54.2 | +24.1 [16.4, 31.5] | 63.9 | N/A |
+
+Note: The cross-source workflow comparison uses 20 Huang–Baddour settings and eight KAIST file groups (Repository Table S1). Reported intervals use this grouping, as specified in Section 4.1.
+
+
+## Table S17
+
+Workflow comparisons within each variable-speed data source.
+
+Source for Figure 4-3(c); manuscript Section 4.3.3.
+
+[Download CSV](table_S17.csv)
+
+| Variable-speed source | Evaluation groups | Full EDS (%) | Alternative EDS (%) | ΔEDS (pp) [reported 95% interval] |
+| --- | --- | --- | --- | --- |
+| Huang–Baddour v2 | 20 settings | — | — | +15.2 [7.0, 23.4] |
+| KAIST | 8 evaluation file groups | 77.0 | 65.6 | +11.4 [1.1, 21.8] |
+
+Note: A dash marks an unreported source-specific absolute EDS; it is not inferred from the pooled mean. Intervals use the source grouping specified in Repository Table S16.
+
+
+## Table S18
+
+Ablation of the provenance mechanism.
+
+Source for Figure 4-4(a); manuscript Section 4.4.1.
+
+[Download CSV](table_S18.csv)
+
+| Reporting condition | PC ↑ | NF ↑ | Independent offline UCR ↓ | REC ↑ | Claims/episode | EDS | Macro-F1 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Atomic claims, no mandatory citations | 41.8 | 82.6 | 18.7 | 83.1 | 4.8 | 68.83 | 77.6 |
+| Citation field present, no deterministic checks | 91.4 | 89.7 | 10.9 | 84.0 | 4.9 | 69.6 | 77.7 |
+| Mandatory citations + deterministic checks | 98.2 | 97.1 | 3.7 | 86.8 | 4.7 | 74.50 | 78.15 |
+
+Note: PC, NF, REC, EDS and Macro-F1 are percentages, as is independent offline UCR. Claims/episode is a mean count. The complete condition reuses the primary VG-MTP evaluation; full and no-binding EDS are compared on 1,200 paired task–seed outcomes. Whole-report metrics and the expert subset in Table S19 retain separate claim sets and denominators.
+
+
+## Table S19
+
+Automated–expert cross-tabulation on the same audited claims.
+
+Source for Figure 4-4(b); manuscript Section 4.4.1.
+
+[Download CSV](table_S19.csv)
+
+| Condition | Claims | A1/E1 | A1/E0 | A0/E1 | A0/E0 | AutoUCR (%) | ExpertUCR (%) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| No mandatory citations | 576 | 101 | 6 | 11 | 458 | 18.58 | 19.44 |
+| Citation field only | 588 | 61 | 4 | 10 | 513 | 11.05 | 12.07 |
+| Mandatory citations + checks | 560 | 19 | 2 | 6 | 533 | 3.75 | 4.46 |
+
+Note: A = automated label; E = adjudicated expert label; 1 = unsupported and 0 = supported. All cells use the identical claim set within each condition, with 120 reports per condition. Expert–expert agreement is a different statistic from agreement between the automated and adjudicated labels.
+
+
+## Table S20
+
+Performance across signal-noise levels.
+
+Source for Figure 4-5(a); manuscript Section 4.5.2.
+
+[Download CSV](table_S20.csv)
+
+| Signal condition | EDS | Coverage | UCR | Unsafe accepted /required; rate (%) |
+| --- | --- | --- | --- | --- |
+| Original signal | 74.50 | 89.00 | 3.7 | 12/90; 13.33 |
+| SNR 20 dB | 72.1 | 88.8 | 3.9 | 20/125; 16.0 |
+| SNR 10 dB | 68.3 | 84.2 | 4.7 | 29/200; 14.5 |
+| SNR 5 dB | 59.6 | 72.5 | 6.2 | 40/340; 11.8 |
+| SNR 0 dB | 42.1 | 51.7 | 8.9 | 45/525; 8.6 |
+
+Note: Counts pool five seeds. Required-abstention denominators are 18, 25, 40, 68 and 105 tasks per seed, respectively; coverage uses all 240 tasks. Physical fault labels remain fixed, while the task specification determines answerability under each perturbation before scoring method outputs. Thus unsafe-acceptance rates across SNR levels have different reference sets.
+
+The tachometer perturbation panel, Figure 4-5(b), uses a different variable-speed subset with baseline EDS 78.3%, rather than the 74.50% noise baseline in this table. Its EDS values remain in manuscript Section 4.5.2.

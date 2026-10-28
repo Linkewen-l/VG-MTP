@@ -179,11 +179,6 @@ manifests/sqv_records_windows.csv,phase_direction
 manifests/sqv_records_windows.csv,exclusion_or_group_note
 manifests/sqv_records_windows.csv,source_id
 manifests/sqv_records_windows.csv,source_row
-paper_map.csv,paper_location
-paper_map.csv,topic
-paper_map.csv,result_files
-paper_map.csv,reproduction_entry
-paper_map.csv,scope
 provenance/candidate_lineage.csv,candidate_id
 provenance/candidate_lineage.csv,s2_label
 provenance/candidate_lineage.csv,source_group
@@ -417,3 +412,60 @@ training/source_registry/00_manifest.csv,sha256
 training/source_registry/00_manifest.csv,size_bytes
 training/source_registry/00_manifest.csv,lines
 training/source_registry/00_manifest.csv,note
+paper_map.csv,paper_location
+paper_map.csv,topic
+paper_map.csv,result_files
+paper_map.csv,reproduction_entry
+paper_map.csv,scope
+docs/supplementary_tables/table_S12.csv,Method
+docs/supplementary_tables/table_S12.csv,"Raw EDS
+successes / runs"
+docs/supplementary_tables/table_S12.csv,"Majority EDS
+successes / pairs (%)"
+docs/supplementary_tables/table_S12.csv,"Task-equal raw
+EDS (%)"
+docs/supplementary_tables/table_S12.csv,"VG − method
+pp [95% interval]"
+docs/supplementary_tables/table_S13.csv,Condition
+docs/supplementary_tables/table_S13.csv,Hard-distractor misrouting rate ↓
+docs/supplementary_tables/table_S14.csv,Failure event
+docs/supplementary_tables/table_S14.csv,Unadapted agent
+docs/supplementary_tables/table_S14.csv,Final-label-only SFT
+docs/supplementary_tables/table_S14.csv,VG-MTP
+docs/supplementary_tables/table_S15.csv,Speed phase / contrast
+docs/supplementary_tables/table_S15.csv,Full EDS (%)
+docs/supplementary_tables/table_S15.csv,Alternative EDS (%)
+docs/supplementary_tables/table_S15.csv,Difference (pp)
+docs/supplementary_tables/table_S15.csv,Conditional 95% interval (pp)
+docs/supplementary_tables/table_S16.csv,Analysis stratum
+docs/supplementary_tables/table_S16.csv,Tool condition
+docs/supplementary_tables/table_S16.csv,EDS (%)
+docs/supplementary_tables/table_S16.csv,Full-tool advantage (pp) [reported 95% interval]
+docs/supplementary_tables/table_S16.csv,Macro-F1
+docs/supplementary_tables/table_S16.csv,Theory–observation error
+docs/supplementary_tables/table_S17.csv,Variable-speed source
+docs/supplementary_tables/table_S17.csv,Evaluation groups
+docs/supplementary_tables/table_S17.csv,Full EDS (%)
+docs/supplementary_tables/table_S17.csv,Alternative EDS (%)
+docs/supplementary_tables/table_S17.csv,ΔEDS (pp) [reported 95% interval]
+docs/supplementary_tables/table_S18.csv,Reporting condition
+docs/supplementary_tables/table_S18.csv,PC ↑
+docs/supplementary_tables/table_S18.csv,NF ↑
+docs/supplementary_tables/table_S18.csv,Independent offline UCR ↓
+docs/supplementary_tables/table_S18.csv,REC ↑
+docs/supplementary_tables/table_S18.csv,Claims/episode
+docs/supplementary_tables/table_S18.csv,EDS
+docs/supplementary_tables/table_S18.csv,Macro-F1
+docs/supplementary_tables/table_S19.csv,Condition
+docs/supplementary_tables/table_S19.csv,Claims
+docs/supplementary_tables/table_S19.csv,A1/E1
+docs/supplementary_tables/table_S19.csv,A1/E0
+docs/supplementary_tables/table_S19.csv,A0/E1
+docs/supplementary_tables/table_S19.csv,A0/E0
+docs/supplementary_tables/table_S19.csv,AutoUCR (%)
+docs/supplementary_tables/table_S19.csv,ExpertUCR (%)
+docs/supplementary_tables/table_S20.csv,Signal condition
+docs/supplementary_tables/table_S20.csv,EDS
+docs/supplementary_tables/table_S20.csv,Coverage
+docs/supplementary_tables/table_S20.csv,UCR
+docs/supplementary_tables/table_S20.csv,Unsafe accepted /required; rate (%)

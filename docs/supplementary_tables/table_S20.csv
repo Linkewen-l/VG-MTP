@@ -1,0 +1,6 @@
+﻿Signal condition,EDS,Coverage,UCR,Unsafe accepted /required; rate (%)
+Original signal,74.50,89.00,3.7,12/90; 13.33
+SNR 20 dB,72.1,88.8,3.9,20/125; 16.0
+SNR 10 dB,68.3,84.2,4.7,29/200; 14.5
+SNR 5 dB,59.6,72.5,6.2,40/340; 11.8
+SNR 0 dB,42.1,51.7,8.9,45/525; 8.6

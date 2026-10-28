@@ -1,14 +1,24 @@
 {
   "title": "VG-MTP reproducibility materials",
-  "date": "2026-10-20",
-  "version": "review-v1",
+  "date": "2026-10-28",
+  "version": "review-20261028-figure-tables",
   "manuscript": {
-    "filename": "Manuscript_CH_9.2_附录与GitHub配套审阅版_v1_20261020.docx",
-    "sha256": "29aaa54eb0f26aac9c9c0e5000bdd0623f2bef435944840f606d5d33f1e47d6e"
+    "filename": "Manuscript_CH_9.2_图注精简与GitHub来源表版_20261028.docx",
+    "sha256": "e76a74e2ee0bd5383f35895b24f9ea6db84864d0bd25ee46dff0d176f63a19e8"
   },
   "verifier": "canonical v2.0.0",
   "paper_map": "paper_map.csv",
   "supplementary_tables": "docs/supplementary_tables/index.csv",
   "statistical_entry": "python analysis/recompute.py",
-  "file_verification": "python analysis/verify_checksums.py"
+  "file_verification": "python analysis/verify_checksums.py",
+  "previous_manuscript": {
+    "filename": "Manuscript_CH_9.2_附录与GitHub配套审阅版_v1_20261020.docx",
+    "sha256": "29aaa54eb0f26aac9c9c0e5000bdd0623f2bef435944840f606d5d33f1e47d6e"
+  },
+  "repository_url": "https://github.com/Linkewen-l/VG-MTP",
+  "figure_table_map": "docs/supplementary_tables/figure_table_map.csv",
+  "figure_table_source": {
+    "filename": "Manuscript_CH_9.2_第四章插图与来源表附录版_20261028.docx",
+    "sha256": "3b15ab69926090f3d9210bd1c97680f228106fe1c99724454074557c0acf4ac0"
+  }
 }

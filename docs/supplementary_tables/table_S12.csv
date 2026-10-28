@@ -1,0 +1,9 @@
+﻿Method,"Raw EDS
+successes / runs","Majority EDS
+successes / pairs (%)","Task-equal raw
+EDS (%)","VG − method
+pp [95% interval]"
+Final-label-only,—,"785 / 1,200 (65.42)",—,"+9.08 [6.72, 11.43]"
+D-only-full,"6,630 / 9,900","828 / 1,200 (69.00)",68.75,"+5.50 [3.78, 6.92]"
+LLM-process-full,"7,038 / 9,900","873 / 1,200 (72.75)",72.67,"+1.75 [1.00, 2.50]"
+VG-MTP,"7,188 / 9,900","894 / 1,200 (74.50)",74.25,Reference

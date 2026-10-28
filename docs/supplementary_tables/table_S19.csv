@@ -1,0 +1,4 @@
+﻿Condition,Claims,A1/E1,A1/E0,A0/E1,A0/E0,AutoUCR (%),ExpertUCR (%)
+No mandatory citations,576,101,6,11,458,18.58,19.44
+Citation field only,588,61,4,10,513,11.05,12.07
+Mandatory citations + checks,560,19,2,6,533,3.75,4.46

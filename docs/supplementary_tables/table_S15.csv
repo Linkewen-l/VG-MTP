@@ -1,0 +1,4 @@
+﻿Speed phase / contrast,Full EDS (%),Alternative EDS (%),Difference (pp),Conditional 95% interval (pp)
+Steady speed,90.95,90.00,+0.95,"[0.00, 3.33]"
+Deceleration,89.05,78.57,+10.48,"[5.71, 15.71]"
+Phase × workflow interaction,—,—,+9.52,"[5.24, 14.29]"

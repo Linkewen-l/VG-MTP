@@ -10,3 +10,12 @@ S8,Matching strata and registered training sources.,docs/supplementary_tables/ta
 S9,Frozen signal processing parameters.,docs/supplementary_tables/table_S9.csv
 S10,Tool inputs outputs and prerequisite checks.,docs/supplementary_tables/table_S10.csv
 S11,Paired majority outcomes by training seed.,docs/supplementary_tables/table_S11.csv
+S12,Main EDS comparison for matched filtering and the supervision reference.,docs/supplementary_tables/table_S12.csv
+S13,Misrouting under hard distractors.,docs/supplementary_tables/table_S13.csv
+S14,Incidence of major failure events (an episode may have multiple labels).,docs/supplementary_tables/table_S14.csv
+S15,Paired workflow comparison across SQV steady-speed and deceleration phases.,docs/supplementary_tables/table_S15.csv
+S16,Diagnostic performance and matching error in the pooled variable-speed evaluation.,docs/supplementary_tables/table_S16.csv
+S17,Workflow comparisons within each variable-speed data source.,docs/supplementary_tables/table_S17.csv
+S18,Ablation of the provenance mechanism.,docs/supplementary_tables/table_S18.csv
+S19,Automated–expert cross-tabulation on the same audited claims.,docs/supplementary_tables/table_S19.csv
+S20,Performance across signal-noise levels.,docs/supplementary_tables/table_S20.csv

@@ -5,7 +5,7 @@
 ## 建议阅读顺序
 
 1. 查看 [论文与文件对应表](paper_map.csv)，定位所需结果。
-2. 查看 [补充表 S1–S11](docs/supplementary_tables/README.md)，浏览逐种子结果、文件窗口和训练分层。
+2. 查看 [补充表 S1–S20](docs/supplementary_tables/README.md)，浏览逐种子结果、文件窗口、训练分层以及图 4-1 至图 4-5 的来源数值表。
 3. 按 [复算说明](docs/reproduction.md) 运行脚本，对照 `results/recomputed/`。
 4. 通过 [训练说明](training/README.md) 核对候选、任务、物理输入和语料实例的关联。
 

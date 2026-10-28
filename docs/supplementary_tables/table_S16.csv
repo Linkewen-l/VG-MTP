@@ -1,0 +1,4 @@
+﻿Analysis stratum,Tool condition,EDS (%),Full-tool advantage (pp) [reported 95% interval],Macro-F1,Theory–observation error
+Variable speed,Full order-tracking toolset,78.3,Reference,82.4,0.031 order
+Variable speed,STFT/segmented-FFT substitute,64.2,"+14.1 [7.2, 21.0]",71.6,0.118 order
+Variable speed,No speed-synchronous tools,54.2,"+24.1 [16.4, 31.5]",63.9,N/A

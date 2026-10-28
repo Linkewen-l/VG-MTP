@@ -22,3 +22,6 @@ CSV为UTF-8（带BOM），每张数据表第一行是列名。JSON/JSONL为UTF-8
 主评测74.50%为多数EDS，74.25%为任务等权原始EDS，7,188/9,900为直接合并原始EDS。它们采用不同聚合规则。Pass³=2,026/3,300=61.39%作为已确认的实际结果登记；脚本按登记的实际成功组数与分母核算该比例。
 
 所有列的文件、名称与推断存储类型见 `manifests/column_dictionary.csv`。论文快照中保留展示字符串和原列名，不将区间、N/A或组合计数强行转换为数值。
+
+
+图表来源汇总见 `docs/supplementary_tables/table_S12.csv` 至 `table_S20.csv`。这些文件逐单元格保留手稿展示值，包含百分比、区间及组合计数；一行是原表的比较条件，不是新增的独立原始观测。`docs/supplementary_tables/README.md` 保留统计分母、区间定义和表注；`figure_table_map.csv` 给出原附录表 D1–D9 与正文图、仓库表号的对应。
