@@ -2,6 +2,8 @@
 
 Materials accompanying **VG-MTP: Verifier-Guided Mechanism-Aware Tool Planning for Evidence-Grounded Rotating-Machinery Fault Diagnosis**.
 
+**Code and model weights: coming soon.**
+
 This repository provides paired evaluation outcomes, exact task and window manifests, training trajectories and corpus provenance, experimental specifications, and scripts that reproduce the statistical results below.
 
 | Analysis | Data | Recomputed result |
