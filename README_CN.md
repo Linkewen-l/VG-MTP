@@ -4,10 +4,14 @@
 
 **代码和模型权重即将发布（coming soon）。**
 
+## 完整附录
+
+论文原附录 A–C 已移至 [仓库附录目录](docs/manuscript_appendices/README.md)，提供 PDF 阅读版和可编辑 Word 版。原有小节、表格和公式编号保留，例如正文的 Repository Table B.5 对应附件中的表 B.5。附录包含评估与聚合规则、数据和训练设置、补充结果、执行规范与调用审计。
+
 ## 建议阅读顺序
 
 1. 查看 [论文与文件对应表](paper_map.csv)，定位所需结果。
-2. 查看 [补充表 S1–S20](docs/supplementary_tables/README.md)，浏览逐种子结果、文件窗口、训练分层以及图 4-1 至图 4-5 的来源数值表。
+2. 查看 [补充表 S1–S20](docs/supplementary_tables/README.md)，浏览逐种子结果、文件窗口、训练分层以及当前手稿图 2 至图 6（旧版图 4-1 至图 4-5） 的来源数值表。
 3. 按 [复算说明](docs/reproduction.md) 运行脚本，对照 `results/recomputed/`。
 4. 通过 [训练说明](training/README.md) 核对候选、任务、物理输入和语料实例的关联。
 

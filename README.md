@@ -1,6 +1,6 @@
 # VG-MTP reproducibility materials
 
-Materials accompanying **VG-MTP: Verifier-Guided Mechanism-Aware Tool Planning for Evidence-Grounded Rotating-Machinery Fault Diagnosis**.
+Materials accompanying **VG-MTP: Verifier-Guided Tool Planning for Rotating Machinery Fault Diagnosis with Compact Language Models**.
 
 **Code and model weights: coming soon.**
 
@@ -15,7 +15,11 @@ This repository provides paired evaluation outcomes, exact task and window manif
 
 [中文阅读说明](README_CN.md) · [Paper-to-file index](paper_map.csv) · [Statistical guide](docs/reproduction.md) · [Supplementary Tables S1–S20](docs/supplementary_tables/README.md)
 
-Tables S12–S20 contain the numerical source tables for Figures 4-1–4-5 in the revised manuscript. The [figure-to-table mapping](docs/supplementary_tables/figure_table_map.csv) records their former Appendix D labels.
+Tables S12–S20 contain the numerical source tables for Figures 2–6 in the current manuscript (Figures 4-1–4-5 in earlier versions). The [figure-to-table mapping](docs/supplementary_tables/figure_table_map.csv) records their former Appendix D labels.
+
+## Manuscript appendices
+
+The complete [Appendices A–C](docs/manuscript_appendices/README.md) are available as a PDF reading copy and an editable Word document. They contain evaluation rules, experimental settings, supplementary results, execution specifications and call audits. Original appendix and table labels are preserved, so a reference such as Repository Table B.5 resolves directly to the same label in these files.
 
 ## Recompute the results
 

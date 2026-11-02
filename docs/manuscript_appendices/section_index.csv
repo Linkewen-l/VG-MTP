@@ -1,0 +1,39 @@
+label,title,document,pdf_page
+A.1,Evaluation units and terminal decisions,Appendices_A-C_20261102.pdf,1
+A.2,Metric aggregation,Appendices_A-C_20261102.pdf,2
+A.3,Trajectory supervision and runtime checks,Appendices_A-C_20261102.pdf,3
+B.1,Data sources and partition scope,Appendices_A-C_20261102.pdf,4
+B.2,Model and execution settings,Appendices_A-C_20261102.pdf,4
+B.3,Paired statistical analysis,Appendices_A-C_20261102.pdf,5
+B.4,Tolerances and perturbation settings,Appendices_A-C_20261102.pdf,6
+B.5,Training scale and expert audit design,Appendices_A-C_20261102.pdf,7
+B.6,Results by training seed,Appendices_A-C_20261102.pdf,7
+B.7,SQV recording manifest and window protocol,Appendices_A-C_20261102.pdf,8
+B.8,Main evaluation mapping and partition audit,Appendices_A-C_20261102.pdf,8
+B.9,Training sources and process filtering control,Appendices_A-C_20261102.pdf,9
+B.10,Runtime and reporting ablations,Appendices_A-C_20261102.pdf,9
+C.1,Required evidence by diagnostic granularity,Appendices_A-C_20261102.pdf,10
+C.2,Evidence state and conflict handling,Appendices_A-C_20261102.pdf,11
+C.3,Acceptance scoring from quality and applicability,Appendices_A-C_20261102.pdf,12
+C.4,Main loop and terminal decisions,Appendices_A-C_20261102.pdf,13
+C.5,Dynamic rule-based planner,Appendices_A-C_20261102.pdf,13
+C.6,Fixed parameters for the full and alternative pipelines,Appendices_A-C_20261102.pdf,13
+C.7,Tool contracts and call examples,Appendices_A-C_20261102.pdf,14
+C.8,Complete trajectory under conflicting speed information,Appendices_A-C_20261102.pdf,14
+C.9,Call accounting and consistency checks,Appendices_A-C_20261102.pdf,15
+C.10,Paired outcomes for VG-MTP and LLM-process-full,Appendices_A-C_20261102.pdf,16
+C.11,Equivalent evidence paths and threshold checks,Appendices_A-C_20261102.pdf,16
+Table A.1,Task-level EDS gates.,Appendices_A-C_20261102.pdf,1
+Table A.2,Terminal decisions and failure handling.,Appendices_A-C_20261102.pdf,1
+Table A.3,Aggregation and denominator rules.,Appendices_A-C_20261102.pdf,2
+Table B.1,Data composition and evaluation roles.,Appendices_A-C_20261102.pdf,4
+Table B.2,Planner training and inference settings.,Appendices_A-C_20261102.pdf,5
+Table B.3,Numerical tolerances and execution limits.,Appendices_A-C_20261102.pdf,6
+Table B.4,Supplementary training-scale results.,Appendices_A-C_20261102.pdf,7
+Table B.5,Sensitivity of paired EDS gains to source grouping.,Appendices_A-C_20261102.pdf,8
+Table B.6,Candidate screening and matched training counts.,Appendices_A-C_20261102.pdf,9
+Table C.1,Evidence predicates used by the frozen evaluator.,Appendices_A-C_20261102.pdf,10
+Table C.2,Claim semantics and allowed evidence fields.,Appendices_A-C_20261102.pdf,11
+Table C.3,Executed trajectory and blocked proposal for case_conflict_042.,Appendices_A-C_20261102.pdf,14
+Table C.4,"Call counts and validator consistency over 9,900 primary VG-MTP executions.",Appendices_A-C_20261102.pdf,15
+Table C.5,Matched-input checks of equivalent evidence paths under the same G rule.,Appendices_A-C_20261102.pdf,16
