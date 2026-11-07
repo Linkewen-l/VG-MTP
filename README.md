@@ -1,10 +1,10 @@
 # VG-MTP reproducibility materials
 
-Materials accompanying **VG-MTP: Verifier-Guided Tool Planning for Rotating Machinery Fault Diagnosis with Compact Language Models**.
+Materials accompanying **Verifier-guided tool planning for evidence-grounded engineering decisions with compact language models**.
 
-**Code and model weights: coming soon.**
+**Planner/execution code and model weights: coming soon.** Statistical recomputation scripts are included in this repository.
 
-This repository provides paired evaluation outcomes, exact task and window manifests, training trajectories and corpus provenance, experimental specifications, and scripts that reproduce the statistical results below.
+VG-MTP studies how a compact language-model planner acquires and uses evidence under executable domain constraints. Rotating-machinery diagnosis supplies the engineering test setting. This repository provides paired outcomes, task and window manifests, verified-trajectory and corpus records, experimental specifications, and statistical recomputation scripts.
 
 | Analysis | Data | Recomputed result |
 |---|---|---|
@@ -19,7 +19,9 @@ Tables S12–S20 contain the numerical source tables for Figures 2–6 in the cu
 
 ## Manuscript appendices
 
-The complete [Appendices A–C](docs/manuscript_appendices/README.md) are available as a PDF reading copy and an editable Word document. They contain evaluation rules, experimental settings, supplementary results, execution specifications and call audits. Original appendix and table labels are preserved, so a reference such as Repository Table B.5 resolves directly to the same label in these files.
+Appendices A–C are included in the current manuscript. A matching [repository copy](docs/manuscript_appendices/README.md) provides a PDF reading version and an editable Word document with anonymous metadata. The appendices cover evaluation rules, experimental settings, supporting results, execution specifications and tool relationships. Appendix C.12 contains the signal-analysis relationships relocated from the main method section; equation references follow the revised numbering.
+
+The manuscript keywords are compact language models, tool planning, domain constraints, process supervision, evidence verification and engineering decision support. [The paper-to-file index](paper_map.csv) maps current manuscript locations to the supporting records and preserves older locations separately.
 
 ## Recompute the results
 
