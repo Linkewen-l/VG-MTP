@@ -1,6 +1,6 @@
 # VG-MTP 论文配套复现材料
 
-本材料对应《Verifier-guided tool planning for evidence-grounded engineering decisions with compact language models》。研究关注小模型如何在领域约束下规划工具、获取证据并形成受支持的结论，机械诊断作为工程验证场景。
+本材料对应《VG-MTP: A verifier-guided framework for reliable tool planning and evidence use with compact language models》。研究关注小模型如何在领域约束下规划工具、获取证据并形成受支持的结论，机械诊断作为工程验证场景。
 
 **规划器与执行系统代码、模型权重即将发布（coming soon）。** 统计复算脚本已提供。
 

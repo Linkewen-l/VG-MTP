@@ -1,6 +1,6 @@
 # VG-MTP reproducibility materials
 
-Materials accompanying **Verifier-guided tool planning for evidence-grounded engineering decisions with compact language models**.
+Materials accompanying **VG-MTP: A verifier-guided framework for reliable tool planning and evidence use with compact language models**.
 
 **Planner/execution code and model weights: coming soon.** Statistical recomputation scripts are included in this repository.
 

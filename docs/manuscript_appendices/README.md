@@ -1,6 +1,6 @@
 # VG-MTP technical appendices
 
-These appendices accompany **Verifier-guided tool planning for evidence-grounded engineering decisions with compact language models**. Appendices A–C are included in the manuscript; this repository copy supports navigation and reproducibility. The scientific records and table labels are retained. The current version uses author–year references and anonymous document metadata.
+These appendices accompany **VG-MTP: A verifier-guided framework for reliable tool planning and evidence use with compact language models**. Appendices A–C are included in the manuscript; this repository copy supports navigation and reproducibility. The scientific records and table labels are retained. The current version uses author–year references and anonymous document metadata.
 
 - [Read the appendices as PDF](Appendices_A-C_20261108.pdf)
 - [Download the editable Word document](Appendices_A-C_20261108.docx)
