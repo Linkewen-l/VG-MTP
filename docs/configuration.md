@@ -32,7 +32,7 @@ The cost-efficient frontier baseline is gpt-5-mini-2025-08-07. The high-capabili
 
 Each trainable method has 180 × 3 × 3 + 60 × 2 × 3 = 1,980 primary executions per training seed, giving 9,900 across five seeds. These yield 1,200 task–seed summaries under the strict-majority rule in Appendix A. Timeouts and executions without a legal terminal state remain in the planned denominator with EDS = 0. Repository Table S14 uses a different denominator: base-episode incidence counts tasks with at least one timeout or budget exhaustion. Untrained comparators use S = 1.
 
-SQV uses the five frozen VG-MTP checkpoints and the settings in Tables B2–B3. It uses one prompt and one execution per task, seed and workflow: 42 records × two phases × five seeds × two workflows = 840 executions. ALT disables only order_resample and order_spectrum, retaining the other six tools without retraining. Expert classification remains subject to the same cross-bench applicability guard; g₃ localization uses mechanistic evidence. Both workflows can produce location-level diagnoses (C.6); the same 420 full-method executions supply Table 4-7. Failed outcomes are not replaced by successful retries.
+SQV uses the five frozen VG-MTP checkpoints and the settings in Tables B.2–B.3. It uses one prompt and one execution per task, seed and workflow: 42 records × two phases × five seeds × two workflows = 840 executions. ALT disables only order_resample and order_spectrum, retaining the other six tools without retraining. Expert classification remains subject to the same cross-bench applicability guard; g₃ localization uses mechanistic evidence. Both workflows can produce location-level diagnoses (C.6); the same 420 full-method executions supply Table 8. Failed outcomes are not replaced by successful retries.
 
 ## Numerical tolerances
 
@@ -55,7 +55,7 @@ Time is measured in seconds, frequency in hertz and speed in rpm, with explicit 
 
 ρₙ = |nmeta − ntach| / max(nmeta, ntach).
 
-The acceptance score uses grouped five-fold logistic calibration on training/development data with regularization λ = 1. Its frozen intercept is b = −2.0 and weights are (1.0, 0.6, 1.2, 0.8, 0.5, 0.3, −1.5), in the feature order below. The operating threshold is θ* = 0.72. Score only candidates that pass the evidence gate. REC retains the requested-granularity reference; Ξₑ(g) contains conflicts relevant to the candidate. Appendix C.3 defines the features and C.4 gives the decision order.
+The acceptance score uses grouped five-fold logistic calibration on the development set with regularization λ = 1. Its frozen intercept is b = −2.0 and weights are (1.0, 0.6, 1.2, 0.8, 0.5, 0.3, −1.5), in the feature order below. The operating threshold is θ* = 0.72. Score only candidates that pass the evidence gate. REC retains the requested-granularity reference; Ξₑ(g) contains conflicts relevant to the candidate. Appendix C.3 defines the features and C.4 gives the decision order.
 
 cₑ(g) = σ(b + wᵀzₑ(g)),    zₑ(g) = (qsig, adom, REC, NF, PC, pplan, I[Ξₑ(g) ≠ ∅]).
 

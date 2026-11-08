@@ -1,6 +1,6 @@
 # Supplementary tables
 
-Tables S1–S20 provide the detailed records and specifications cited by the accompanying manuscript. The statistics guide identifies the data and scripts used for numerical recomputation. Tables S12–S20 are the numerical source tables for manuscript Figures 4-1–4-5, moved from Appendix D of the 28 October 2026 draft. Their displayed values, units and uncertainty definitions are preserved. [Figure-to-table mapping](figure_table_map.csv) links each table to its figure panel and manuscript section.
+Tables S1–S20 provide the detailed records and specifications cited by the accompanying manuscript. The statistics guide identifies the data and scripts used for numerical recomputation. Tables S12–S20 are the numerical source tables for current manuscript Figures 2–6, moved from Appendix D of the 28 October 2026 draft. Their displayed values, units and uncertainty definitions are preserved. [Figure-to-table mapping](figure_table_map.csv) links each table to its current figure panel and manuscript section, while preserving the former figure label.
 
 ## Table S1
 
@@ -197,7 +197,7 @@ Paired majority outcomes by training seed.
 
 Main EDS comparison for matched filtering and the supervision reference.
 
-Source for Figure 4-1(a–b); manuscript Section 4.2.1.
+Source for Figure 2(a–b); manuscript Section 4.2.1.
 
 [Download CSV](table_S12.csv)
 
@@ -210,14 +210,14 @@ Source for Figure 4-1(a–b); manuscript Section 4.2.1.
 
 Note: 240 tasks × five training seeds. The three full-trajectory conditions match training size, supervision format and update budget. Final-label-only is a supervision-package reference. Raw counts retain all planned runs; its unavailable raw summary is marked with a dash. Differences favor VG-MTP and use the 15-group paired protocol. Source records and computation are specified in Appendix B.3.
 
-The task–seed pairing used in Figure 4-1(c–d) is retained in [Repository Table S11](#table-s11) and [the paired outcomes](../../results/main/paired_task_seed.csv).
+The task–seed pairing used in Figure 2(c–d) is retained in [Repository Table S11](#table-s11) and [the paired outcomes](../../results/main/paired_task_seed.csv).
 
 
 ## Table S13
 
 Misrouting under hard distractors.
 
-Source for Figure 4-2(g); manuscript Section 4.3.2.
+Source for Figure 3(g); manuscript Section 4.3.2.
 
 [Download CSV](table_S13.csv)
 
@@ -234,7 +234,7 @@ Note: Misrouting values are percentages. Hard-distractor misrouting and the fail
 
 Incidence of major failure events (an episode may have multiple labels).
 
-Source for Figure 4-2(a–f); manuscript Section 4.3.2.
+Source for Figure 3(a–f); manuscript Section 4.3.2.
 
 [Download CSV](table_S14.csv)
 
@@ -254,7 +254,7 @@ Note: Events are measured at the base-episode level and may overlap; their propo
 
 Paired workflow comparison across SQV steady-speed and deceleration phases.
 
-Source for Figure 4-3(a); manuscript Section 4.3.3.
+Source for Figure 4(a); manuscript Section 4.3.3.
 
 [Download CSV](table_S15.csv)
 
@@ -271,7 +271,7 @@ Note: 42 tasks per phase × two workflows × five seeds = 840 executions. Full/a
 
 Diagnostic performance and matching error in the pooled variable-speed evaluation.
 
-Source for Figure 4-3(b); manuscript Section 4.3.3.
+Source for Figure 4(b); manuscript Section 4.3.3.
 
 [Download CSV](table_S16.csv)
 
@@ -288,7 +288,7 @@ Note: The cross-source workflow comparison uses 20 Huang–Baddour settings and 
 
 Workflow comparisons within each variable-speed data source.
 
-Source for Figure 4-3(c); manuscript Section 4.3.3.
+Source for Figure 4(c); manuscript Section 4.3.3.
 
 [Download CSV](table_S17.csv)
 
@@ -304,7 +304,7 @@ Note: A dash marks an unreported source-specific absolute EDS; it is not inferre
 
 Ablation of the provenance mechanism.
 
-Source for Figure 4-4(a); manuscript Section 4.4.1.
+Source for Figure 5(a); manuscript Section 4.4.1.
 
 [Download CSV](table_S18.csv)
 
@@ -321,7 +321,7 @@ Note: PC, NF, REC, EDS and Macro-F1 are percentages, as is independent offline U
 
 Automated–expert cross-tabulation on the same audited claims.
 
-Source for Figure 4-4(b); manuscript Section 4.4.1.
+Source for Figure 5(b); manuscript Section 4.4.1.
 
 [Download CSV](table_S19.csv)
 
@@ -338,7 +338,7 @@ Note: A = automated label; E = adjudicated expert label; 1 = unsupported and 0 =
 
 Performance across signal-noise levels.
 
-Source for Figure 4-5(a); manuscript Section 4.5.2.
+Source for Figure 6(a); manuscript Section 4.5.2.
 
 [Download CSV](table_S20.csv)
 
@@ -352,4 +352,4 @@ Source for Figure 4-5(a); manuscript Section 4.5.2.
 
 Note: Counts pool five seeds. Required-abstention denominators are 18, 25, 40, 68 and 105 tasks per seed, respectively; coverage uses all 240 tasks. Physical fault labels remain fixed, while the task specification determines answerability under each perturbation before scoring method outputs. Thus unsafe-acceptance rates across SNR levels have different reference sets.
 
-The tachometer perturbation panel, Figure 4-5(b), uses a different variable-speed subset with baseline EDS 78.3%, rather than the 74.50% noise baseline in this table. Its EDS values remain in manuscript Section 4.5.2.
+The tachometer perturbation panel, Figure 6(b), uses a different variable-speed subset with baseline EDS 78.3%, rather than the 74.50% noise baseline in this table. Its EDS values remain in manuscript Section 4.5.2.
